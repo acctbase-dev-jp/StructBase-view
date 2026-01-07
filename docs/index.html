@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StructBase VIEW</title>
+  <meta name="description" content="StructBase VIEW: 公開用の要件DB一覧（一次情報リンク付きの参照ページ）" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; line-height: 1.6; margin: 24px; }
+    header { margin-bottom: 18px; }
+    h1 { font-size: 22px; margin: 0 0 6px 0; }
+    p { margin: 0 0 10px 0; }
+    .note { font-size: 13px; color: #444; }
+    .list { margin-top: 14px; padding-left: 18px; }
+    .list li { margin: 10px 0; }
+    .meta { font-size: 12px; color: #666; margin-top: 2px; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .box { border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin-top: 14px; max-width: 880px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>StructBase VIEW</h1>
+    <p class="note">このページは「DB一覧」のみを提供します。各DBの説明・更新履歴・イベント一覧は、各DBの index に集約します。</p>
+  </header>
+
+  <section class="box" aria-label="Databases">
+    <p><strong>公開DB一覧</strong></p>
+    <ul class="list">
+      <li>
+        <a href="./outsourcing-privacy/">委託先管理・個人情報保護 要件DB</a>
+        <div class="meta">slug: outsourcing-privacy</div>
+      </li>
+      <li>
+        <a href="./labor-hr/">労務・人事制度 要件DB</a>
+        <div class="meta">slug: labor-hr</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="box" aria-label="Rule">
+    <p><strong>運用ルール（固定）</strong></p>
+    <p class="note">DBを追加するときは、<code>docs/&lt;db-slug&gt;/index.html</code> を作成し、この一覧に「1行だけ」追加します。トップページに長文説明は追加しません。</p>
+  </section>
+</body>
+</html>
