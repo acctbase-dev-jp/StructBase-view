@@ -3,45 +3,187 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>StructBase VIEW</title>
-  <meta name="description" content="StructBase VIEW: 公開用の要件DB一覧（一次情報リンク付きの参照ページ）" />
+  <title>StructBase</title>
+  <meta name="description" content="StructBase：業務向け構造データベース。判断・解釈・推奨を行わず、構造のみを提供する実務基盤。" />
   <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; line-height: 1.6; margin: 24px; }
-    header { margin-bottom: 18px; }
-    h1 { font-size: 22px; margin: 0 0 6px 0; }
-    p { margin: 0 0 10px 0; }
-    .note { font-size: 13px; color: #444; }
-    .list { margin-top: 14px; padding-left: 18px; }
-    .list li { margin: 10px 0; }
-    .meta { font-size: 12px; color: #666; margin-top: 2px; }
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .box { border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin-top: 14px; max-width: 880px; }
+    :root{
+      /* 背景と紙面 */
+      --page-bg: #f3f4f6;
+      --panel-bg: #ffffff;
+
+      --fg: #111111;
+      --muted: #555555;
+
+      --line: #e5e7eb;
+      --link: #111111;
+
+      /* 紙面をさらに大型化 */
+      --max: 1240px;
+
+      /* 影は弱く、重さだけ出す */
+      --shadow: 0 2px 4px rgba(0,0,0,0.06), 0 16px 40px rgba(0,0,0,0.08);
+
+      --radius: 18px;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--page-bg);
+      color: var(--fg);
+      font-size: 20px; /* ← ベースフォント +2段階 */
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.01em;
+    }
+
+    .page {
+      padding: 56px 28px 88px 28px;
+    }
+
+    .panel {
+      max-width: var(--max);
+      margin: 0 auto;
+      background: var(--panel-bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .inner {
+      padding: 56px 56px 64px 56px;
+    }
+
+    header {
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: 750;
+      margin: 0 0 16px 0;
+      letter-spacing: 0.02em;
+    }
+
+    .tagline1 {
+      font-size: 22px;
+      font-weight: 650;
+      margin: 0 0 8px 0;
+    }
+
+    .tagline2 {
+      font-size: 18px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    main {
+      padding-top: 40px;
+    }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--muted);
+      margin: 0 0 16px 0;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .db-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .db-item {
+      padding: 26px 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    .db-item:first-child {
+      border-top: none;
+    }
+
+    .db-name {
+      display: block;
+      font-size: 22px;
+      font-weight: 650;
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    .db-name:hover {
+      text-decoration: underline;
+    }
+
+    .notes {
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .notes p {
+      margin: 0 0 16px 0;
+    }
+
+    .notes p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+      html, body { font-size: 18px; }
+      .page { padding: 32px 16px 48px 16px; }
+      .inner { padding: 32px 20px 36px 20px; }
+      .logo { font-size: 26px; }
+      .tagline1 { font-size: 19px; }
+      .tagline2 { font-size: 16px; }
+      .db-name { font-size: 19px; }
+    }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>StructBase VIEW</h1>
-    <p class="note">このページは「DB一覧」のみを提供します。各DBの説明・更新履歴・イベント一覧は、各DBの index に集約します。</p>
-  </header>
+  <div class="page">
+    <div class="panel">
+      <div class="inner">
+        <header>
+          <h1 class="logo">StructBase</h1>
+          <p class="tagline1">業務向け構造データベース</p>
+          <p class="tagline2">判断・解釈・推奨を行わず、構造のみを提供する実務基盤</p>
+        </header>
 
-  <section class="box" aria-label="Databases">
-    <p><strong>公開DB一覧</strong></p>
-    <ul class="list">
-      <li>
-        <a href="./outsourcing-privacy/">委託先管理・個人情報保護 要件DB</a>
-        <div class="meta">slug: outsourcing-privacy</div>
-      </li>
-      <li>
-        <a href="./labor-hr/">労務・人事制度 要件DB</a>
-        <div class="meta">slug: labor-hr</div>
-      </li>
-    </ul>
-  </section>
+        <main>
+          <p class="section-title">Databases</p>
 
-  <section class="box" aria-label="Rule">
-    <p><strong>運用ルール（固定）</strong></p>
-    <p class="note">DBを追加するときは、<code>docs/&lt;db-slug&gt;/index.html</code> を作成し、この一覧に「1行だけ」追加します。トップページに長文説明は追加しません。</p>
-  </section>
+          <ul class="db-list">
+            <li class="db-item">
+              <a class="db-name" href="./outsourcing-privacy/">委託先管理・個人情報保護</a>
+            </li>
+            <li class="db-item">
+              <a class="db-name" href="./labor-hr/">労務・人事制度</a>
+            </li>
+          </ul>
+
+          <section class="notes">
+            <p>※ 本サイトは、判断・解釈・助言・推奨を提供するものではありません。<br>
+            実務上の判断および対応は、事業者または専門家の責任において行ってください。</p>
+
+            <p>※ 各データベースは特定の範囲・観点に基づいて構成されており、網羅性・最新性・完全性を保証するものではありません。</p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
