@@ -96,6 +96,32 @@
     }
     /* ★ ここまで */
 
+    .req-cell {
+      position: relative;
+    }
+
+    .copy-link {
+      position: absolute;
+      top: 6px;
+      left: 8px;
+      font-size: 10px;
+      color: #d1d5db;
+      cursor: pointer;
+      user-select: none;
+      text-decoration: none;
+      transition: color 0.2s;
+      pointer-events: auto;
+      z-index: 1;
+    }
+
+    .copy-link:hover {
+      color: #6b7280;
+    }
+
+    .copy-link.copied {
+      color: #111827;
+    }
+
     .btn-link {
       display: inline-block;
       padding: 10px 18px;
@@ -121,7 +147,7 @@
 <body>
   <div class="container">
 
-    <a class="back" href="../index.html">← 一覧に戻る</a>
+    <a class="back" href="../labor-hr-db.html">← 一覧に戻る</a>
 
     <h1>雇用開始</h1>
 
@@ -141,30 +167,30 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>雇用開始に伴い労働条件の明示対象となる事項を整理する</td>
+        <tr id="REQ-HIRE-001">
+          <td class="req-cell">雇用開始に伴う労働条件の明示対象事項</td>
           <td>労働基準法 / 第15条</td>
           <td><a class="btn-link" href="https://laws.e-gov.go.jp/law/322AC0000000049#Mp-At_15" target="_blank">一次情報を開く</a></td>
         </tr>
-        <tr>
-          <td>雇用開始に伴い労働者名簿に記載する事項を整理する</td>
+        <tr id="REQ-HIRE-002">
+          <td class="req-cell">雇用開始に伴う労働者名簿の記載事項</td>
           <td>労働基準法 / 第107条</td>
           <td><a class="btn-link" href="https://laws.e-gov.go.jp/law/322AC0000000049#Mp-At_107" target="_blank">一次情報を開く</a></td>
         </tr>
-        <tr>
-          <td>雇用開始に伴い賃金台帳に記載する事項を整理する</td>
+        <tr id="REQ-HIRE-003">
+          <td class="req-cell">雇用開始に伴う賃金台帳の記載事項</td>
           <td>労働基準法 / 第108条</td>
           <td><a class="btn-link" href="https://laws.e-gov.go.jp/law/322AC0000000049#Mp-At_108" target="_blank">一次情報を開く</a></td>
         </tr>
-        <tr>
-          <td>雇用保険の被保険者となる場合に必要となる届出の対象と提出情報を整理する</td>
+        <tr id="REQ-HIRE-004">
+          <td class="req-cell">雇用保険届出の対象および提出情報</td>
           <td>
             雇用保険被保険者資格取得届（e-Gov電子申請） / 手続概要
           </td>
           <td><a class="btn-link" href="https://shinsei.e-gov.go.jp/recept/procedure-search/procInfo?procCd=4950008680033" target="_blank">一次情報を開く</a></td>
         </tr>
-        <tr>
-          <td>健康保険および厚生年金保険に加入すべき者が生じた場合に必要となる届出の対象と提出情報を整理する</td>
+        <tr id="REQ-HIRE-005">
+          <td class="req-cell">健康保険および厚生年金保険届出の対象および提出情報</td>
           <td>
             健康保険・厚生年金保険被保険者資格取得届（e-Gov電子申請） / 手続概要
           </td>
@@ -182,5 +208,79 @@
     </div>
 
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const reqRows = document.querySelectorAll('tbody tr[id^="REQ-"]');
+      
+      reqRows.forEach(function(row) {
+        const reqId = row.id;
+        const reqCell = row.querySelector('.req-cell');
+        
+        if (!reqCell) return;
+        
+        // コピーリンクを追加
+        const copyLink = document.createElement('span');
+        copyLink.className = 'copy-link';
+        copyLink.textContent = 'copy';
+        reqCell.appendChild(copyLink);
+        
+        // クリックイベント
+        copyLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          // 要件セルをcloneしてcopy要素だけ除去
+          const clonedCell = reqCell.cloneNode(true);
+          const copyElement = clonedCell.querySelector('.copy-link');
+          if (copyElement) {
+            copyElement.remove();
+          }
+          const reqText = clonedCell.textContent.trim();
+          
+          // パーマリンク生成
+          const baseUrl = window.location.href.split('#')[0];
+          const permalink = baseUrl + '#' + reqId;
+          
+          // コピーするテキスト
+          const copyText = '参照: StructBase | requirement_id: ' + reqId + ' | ' + reqText + ' | ' + permalink;
+          
+          // クリップボードにコピー
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(copyText).then(function() {
+              showCopyFeedback(copyLink);
+            }).catch(function() {
+              fallbackCopy(copyText, copyLink);
+            });
+          } else {
+            fallbackCopy(copyText, copyLink);
+          }
+        });
+      });
+      
+      function fallbackCopy(text, element) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+          document.execCommand('copy');
+          showCopyFeedback(element);
+        } catch (err) {
+          console.error('コピーに失敗しました:', err);
+        }
+        document.body.removeChild(textarea);
+      }
+      
+      function showCopyFeedback(element) {
+        element.classList.add('copied');
+        setTimeout(function() {
+          element.classList.remove('copied');
+        }, 800);
+      }
+    });
+  </script>
 </body>
 </html>
