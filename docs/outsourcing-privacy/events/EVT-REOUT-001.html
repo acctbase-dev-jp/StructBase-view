@@ -2,146 +2,351 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>再委託（EVT-REOUT-001） | 委託先管理・個人情報保護 要件DB</title>
+  <title>再委託｜委託先管理・個人情報保護 要件DB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body{
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-      line-height:1.7;
-      max-width:980px;
-      margin:40px auto;
-      padding:0 20px;
-      background:#fff;
-      color:#222;
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+                   "Noto Sans JP", Meiryo, sans-serif;
+      background-color: #f3f4f6;
+      color: #111827;
     }
-    a{color:#0b57d0;text-decoration:none;}
-    a:hover{text-decoration:underline;}
-    h1{font-size:26px;margin:0 0 10px 0;}
-    h2{font-size:18px;margin:18px 0 10px 0;}
-    p{margin:0 0 12px 0;color:#444;}
-    hr{border:none;border-top:1px solid #ddd;margin:22px 0;}
-    .muted{color:#666;font-size:13px;}
-    .badge{
-      display:inline-block;
-      font-size:12px;
-      padding:2px 8px;
-      border:1px solid #ccc;
-      border-radius:999px;
-      margin-left:8px;
-      color:#555;
-      vertical-align:middle;
-      white-space:nowrap;
+
+    .container {
+      max-width: 1100px;
+      margin: 48px auto;
+      padding: 56px 64px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
     }
-    table{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:10px;
-      font-size:14px;
+
+    .back {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: #111827;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
     }
-    th,td{
-      border:1px solid #ddd;
-      padding:12px;
-      vertical-align:top;
+
+    .back:hover {
+      text-decoration: underline;
     }
-    th{
-      background:#f6f6f6;
-      text-align:left;
-      font-weight:600;
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 24px;
     }
-    .col-req{width:48%;}
-    .col-basis{width:32%;}
-    .col-url{width:20%;}
-    .back{
-      display:inline-block;
-      margin-bottom:10px;
-      font-size:14px;
+
+    .divider {
+      border-bottom: 1px solid #e5e7eb;
+      margin: 32px 0;
     }
-    .linkbtn{
-      display:inline-block;
-      padding:6px 10px;
-      border:1px solid #cfcfcf;
-      border-radius:8px;
-      background:#fff;
-      color:#0b57d0;
-      font-size:13px;
-      white-space:nowrap;
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    /* ★ ここから枠UI調整（主変更点） */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-top: 32px;
+      font-size: 16px;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    thead th {
+      background-color: #f9fafb;
+      font-weight: 600;
+      text-align: left;
+      padding: 14px 16px;
+      border-bottom: 1px solid #e5e7eb;
+      border-right: 1px solid #e5e7eb;
+    }
+
+    thead th:last-child {
+      border-right: none;
+    }
+
+    tbody td {
+      padding: 18px 16px;
+      vertical-align: top;
+      border-bottom: 1px solid #e5e7eb;
+      border-right: 1px solid #e5e7eb;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody td:last-child {
+      border-right: none;
+    }
+    /* ★ ここまで */
+
+    .req-cell {
+      position: relative;
+    }
+
+    .req-anchor {
+      display: block;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+      position: relative;
+      top: -1px;
+    }
+
+    .copy-link {
+      position: absolute;
+      top: 6px;
+      left: 8px;
+      font-size: 10px;
+      color: #d1d5db;
+      cursor: pointer;
+      user-select: none;
+      text-decoration: none;
+      transition: color 0.2s;
+      pointer-events: auto;
+      z-index: 1;
+    }
+
+    .copy-link:hover {
+      color: #6b7280;
+    }
+
+    .copy-link.copied {
+      color: #111827;
+    }
+
+    .btn-link {
+      display: inline-block;
+      padding: 10px 18px;
+      border: 1px solid #d1d5db;
+      border-radius: 9999px;
+      text-decoration: none;
+      color: #2563eb;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .note {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.7;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
 
-  <a class="back" href="../index.html">← 一覧に戻る</a>
+    <a class="back" href="../index.html">← 一覧に戻る</a>
 
-  <h1>再委託 <span class="badge">EVT-REOUT-001</span></h1>
+    <h1>再委託</h1>
 
-  <p>
-    本ページは「再委託」というイベントに関連する制度上の要件を、判断・解釈・推奨を行わずに参照するためのページです。
-    <br>
-    要件（確認が求められている事項）と、その一次情報への参照先のみを提示します。
-  </p>
+    <p>
+      本ページは、再委託に関連して制度上確認が求められる事項と、
+      それらの根拠となる法令・手続を整理した要件一覧です。
+    </p>
 
-  <h2>要件一覧（v0.1）</h2>
+    <div class="divider"></div>
 
-  <table>
-    <thead>
-      <tr>
-        <th class="col-req">要件（確認が求められている事項）</th>
-        <th class="col-basis">根拠（名称 / 箇所）</th>
-        <th class="col-url">参照URL（一次情報）</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>委託先がさらに第三者へ業務を委託する行為が再委託に該当するかを整理する</td>
-        <td>個人情報保護法 / 第27条</td>
-        <td>
-          <a class="linkbtn" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank" rel="noopener noreferrer">一次情報を開く</a>
-        </td>
-      </tr>
+    <table>
+      <thead>
+        <tr>
+          <th>要件（確認が求められている事項）</th>
+          <th>根拠（名称 / 箇所）</th>
+          <th>参照URL（一次情報）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-req-id="REQ-REOUT-001">
+          <td class="req-cell"><span id="REQ-REOUT-001" class="req-anchor"></span>委託先がさらに第三者へ業務を委託する行為が再委託に該当するかを整理する</td>
+          <td>個人情報保護法 / 第27条</td>
+          <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
+        </tr>
+        <tr data-req-id="REQ-REOUT-002">
+          <td class="req-cell"><span id="REQ-REOUT-002" class="req-anchor"></span>再委託に際して本人同意が必要となる場合の条件を整理する</td>
+          <td>個人情報保護法 / 第27条</td>
+          <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
+        </tr>
+        <tr data-req-id="REQ-REOUT-003">
+          <td class="req-cell"><span id="REQ-REOUT-003" class="req-anchor"></span>再委託先に対して求められる安全管理措置の内容を把握する</td>
+          <td>個人情報保護法ガイドライン（通則編） / 第11章</td>
+          <td><a class="btn-link" href="https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" target="_blank">一次情報を開く</a></td>
+        </tr>
+        <tr data-req-id="REQ-REOUT-004">
+          <td class="req-cell"><span id="REQ-REOUT-004" class="req-anchor"></span>再委託を行う場合に契約上整理が求められている事項を把握する</td>
+          <td>個人情報保護法 / 第27条</td>
+          <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
+        </tr>
+        <tr data-req-id="REQ-REOUT-005">
+          <td class="req-cell"><span id="REQ-REOUT-005" class="req-anchor"></span>再委託先に対する監督義務が及ぶ範囲を整理する</td>
+          <td>個人情報保護法 / 第27条</td>
+          <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
+        </tr>
+      </tbody>
+    </table>
 
-      <tr>
-        <td>再委託に際して本人同意が必要となる場合の条件を整理する</td>
-        <td>個人情報保護法 / 第27条</td>
-        <td>
-          <a class="linkbtn" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank" rel="noopener noreferrer">一次情報を開く</a>
-        </td>
-      </tr>
+    <div class="note">
+      ※ 本サイトは、判断・解釈・助言・推奨を提供するものではありません。<br />
+         実務上の判断および対応は、事業者または専門家の責任において行ってください。
+      <br /><br />
+      ※ 各データベースは特定の範囲・観点に基づいて構成されており、
+      網羅性・最新性・完全性を保証するものではありません。
+    </div>
 
-      <tr>
-        <td>再委託先に対して求められる安全管理措置の内容を把握する</td>
-        <td>個人情報保護法ガイドライン（通則編） / 第11章</td>
-        <td>
-          <a class="linkbtn" href="https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" target="_blank" rel="noopener noreferrer">一次情報を開く</a>
-        </td>
-      </tr>
+  </div>
 
-      <tr>
-        <td>再委託を行う場合に契約上整理が求められている事項を把握する</td>
-        <td>個人情報保護法 / 第27条</td>
-        <td>
-          <a class="linkbtn" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank" rel="noopener noreferrer">一次情報を開く</a>
-        </td>
-      </tr>
-
-      <tr>
-        <td>再委託先に対する監督義務が及ぶ範囲を整理する</td>
-        <td>個人情報保護法 / 第27条</td>
-        <td>
-          <a class="linkbtn" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank" rel="noopener noreferrer">一次情報を開く</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p class="muted" style="margin-top:10px;">
-    出典発行者：個人情報保護委員会・e-Gov　確認日：2026-01-04
-  </p>
-
-  <hr>
-
-  <p class="muted">
-    本DBは、法的助言や判断を提供するものではありません。<br>
-    実務上の判断および対応は、必ず事業者または専門家の責任において行ってください。
-  </p>
-
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const reqRows = document.querySelectorAll('tbody tr[data-req-id^="REQ-"]');
+      
+      reqRows.forEach(function(row) {
+        const reqId = row.getAttribute('data-req-id');
+        const reqCell = row.querySelector('.req-cell');
+        
+        if (!reqCell) return;
+        
+        // コピーリンクを追加
+        const copyLink = document.createElement('span');
+        copyLink.className = 'copy-link';
+        copyLink.textContent = 'copy';
+        reqCell.appendChild(copyLink);
+        
+        // クリックイベント
+        copyLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          // 要件セルをcloneしてcopy要素だけ除去
+          const clonedCell = reqCell.cloneNode(true);
+          const copyElement = clonedCell.querySelector('.copy-link');
+          if (copyElement) {
+            copyElement.remove();
+          }
+          const reqText = clonedCell.textContent.trim();
+          
+          // パーマリンク生成の厳格化：row.idをそのまま使用（加工禁止）
+          const base = window.location.href.split('#')[0];
+          const permalink = base + '#' + reqId;
+          
+          // コピーするテキスト
+          const copyText = '参照: StructBase | requirement_id: ' + reqId + ' | ' + reqText + ' | ' + permalink;
+          
+          // クリップボードにコピー
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(copyText).then(function() {
+              showCopyFeedback(copyLink);
+            }).catch(function() {
+              fallbackCopy(copyText, copyLink);
+            });
+          } else {
+            fallbackCopy(copyText, copyLink);
+          }
+        });
+      });
+      
+      // アンカー遷移の確実化（保険処理）
+      function scrollToAnchor() {
+        const targetId = decodeURIComponent(window.location.hash).replace(/^#/, '');
+        if (!targetId) {
+          return;
+        }
+        
+        let scrollTarget = null;
+        
+        // まず document.getElementById(targetId) を探す
+        const el = document.getElementById(targetId);
+        if (el) {
+          // el.closest('tr') があるならそれを scrollTarget にする（最優先）
+          const tr = el.closest('tr');
+          if (tr) {
+            scrollTarget = tr;
+          } else {
+            // なければ el.closest('td') があるならそれを scrollTarget にする
+            const td = el.closest('td');
+            if (td) {
+              scrollTarget = td;
+            } else {
+              // それも無ければ el を scrollTarget にする
+              scrollTarget = el;
+            }
+          }
+        } else {
+          // id が見つからない場合は、tr[data-req-id="TARGET"] を探す
+          const row = document.querySelector(`tr[data-req-id="${targetId}"]`);
+          if (row) {
+            scrollTarget = row;
+          }
+        }
+        
+        // スクロール実行
+        if (scrollTarget) {
+          scrollTarget.scrollIntoView({ block: 'start' });
+        }
+      }
+      
+      // リトライ付きスクロール実行
+      function executeScrollWithRetry() {
+        scrollToAnchor();
+        setTimeout(function() {
+          scrollToAnchor();
+        }, 50);
+        setTimeout(function() {
+          scrollToAnchor();
+        }, 200);
+      }
+      
+      // load イベントで実行（3回リトライ）
+      window.addEventListener('load', function() {
+        executeScrollWithRetry();
+      });
+      
+      // hashchange でも同じ処理を実行
+      window.addEventListener('hashchange', function() {
+        executeScrollWithRetry();
+      });
+      
+      function fallbackCopy(text, element) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+          document.execCommand('copy');
+          showCopyFeedback(element);
+        } catch (err) {
+          console.error('コピーに失敗しました:', err);
+        }
+        document.body.removeChild(textarea);
+      }
+      
+      function showCopyFeedback(element) {
+        element.classList.add('copied');
+        setTimeout(function() {
+          element.classList.remove('copied');
+        }, 800);
+      }
+    });
+  </script>
 </body>
 </html>
