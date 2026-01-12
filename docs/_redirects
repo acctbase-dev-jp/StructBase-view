@@ -1,0 +1,9 @@
+/plan            /plan/index.html            200
+/plan/           /plan/index.html            200
+
+/legal/tokusho   /legal/tokusho.html         200
+/legal/tokusho/  /legal/tokusho.html         200
+
+/legal/tokusho.html /legal/tokusho.html      200
+
+/*               /index.html                 200
