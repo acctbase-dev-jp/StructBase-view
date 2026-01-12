@@ -238,9 +238,9 @@
           }
           const reqText = clonedCell.textContent.trim();
           
-          // パーマリンク生成
-          const baseUrl = window.location.href.split('#')[0];
-          const permalink = baseUrl + '#' + reqId;
+          // パーマリンク生成（完全一致：reqIdをそのまま使用）
+          const base = window.location.href.split('#')[0];
+          const permalink = base + '#' + reqId;
           
           // コピーするテキスト
           const copyText = '参照: StructBase | requirement_id: ' + reqId + ' | ' + reqText + ' | ' + permalink;
@@ -257,6 +257,28 @@
           }
         });
       });
+      
+      // アンカーへのスクロール処理（#が付くのに飛ばない問題の保険）
+      function scrollToAnchor() {
+        const hash = window.location.hash;
+        if (hash) {
+          const targetId = hash.substring(1); // '#' を除去
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({block: 'start'});
+            return true;
+          }
+        }
+        return false;
+      }
+      
+      // DOMContentLoaded 後に一度探す
+      if (!scrollToAnchor()) {
+        // 見つからない場合、setTimeout で 0ms〜50ms 程度の遅延でもう一度だけ探す
+        setTimeout(function() {
+          scrollToAnchor();
+        }, 30);
+      }
       
       function fallbackCopy(text, element) {
         const textarea = document.createElement('textarea');
