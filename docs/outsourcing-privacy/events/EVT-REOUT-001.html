@@ -177,29 +177,29 @@
       </thead>
       <tbody>
         <tr data-req-id="REQ-REOUT-001">
-          <td class="req-cell"><span id="REQ-REOUT-001" class="req-anchor"></span>委託先がさらに第三者へ業務を委託する行為が再委託に該当するかを整理する</td>
+          <td class="req-cell"><span id="REQ-REOUT-001" class="req-anchor"></span>委託先による再委託可能性確認のための情報</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-REOUT-002">
-          <td class="req-cell"><span id="REQ-REOUT-002" class="req-anchor"></span>再委託に際して本人同意が必要となる場合の条件を整理する</td>
+          <td class="req-cell"><span id="REQ-REOUT-002" class="req-anchor"></span>再委託先における個人データ取扱い有無確認のための情報</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-REOUT-003">
-          <td class="req-cell"><span id="REQ-REOUT-003" class="req-anchor"></span>再委託先に対して求められる安全管理措置の内容を把握する</td>
-          <td>個人情報保護法ガイドライン（通則編） / 第11章</td>
-          <td><a class="btn-link" href="https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" target="_blank">一次情報を開く</a></td>
+          <td class="req-cell"><span id="REQ-REOUT-003" class="req-anchor"></span>再委託に関する契約記載有無確認のための情報</td>
+          <td>個人情報保護法 / 第27条</td>
+          <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-REOUT-004">
-          <td class="req-cell"><span id="REQ-REOUT-004" class="req-anchor"></span>再委託を行う場合に契約上整理が求められている事項を把握する</td>
+          <td class="req-cell"><span id="REQ-REOUT-004" class="req-anchor"></span>再委託先に対する監督の対象事項</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-REOUT-005">
-          <td class="req-cell"><span id="REQ-REOUT-005" class="req-anchor"></span>再委託先に対する監督義務が及ぶ範囲を整理する</td>
-          <td>個人情報保護法 / 第27条</td>
-          <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
+          <td class="req-cell"><span id="REQ-REOUT-005" class="req-anchor"></span>再委託先における安全管理措置の確認対象事項</td>
+          <td>個人情報保護法ガイドライン（通則編） / 第11章</td>
+          <td><a class="btn-link" href="https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" target="_blank">一次情報を開く</a></td>
         </tr>
       </tbody>
     </table>
@@ -235,13 +235,25 @@
           e.preventDefault();
           e.stopPropagation();
           
-          // 要件セルをcloneしてcopy要素だけ除去
-          const clonedCell = reqCell.cloneNode(true);
-          const copyElement = clonedCell.querySelector('.copy-link');
-          if (copyElement) {
-            copyElement.remove();
+          // CSV requirement_text マッピング
+          const csvReqTextMap = {
+            'REQ-REOUT-001': '委託先による再委託可能性確認のための情報',
+            'REQ-REOUT-002': '再委託先における個人データ取扱い有無確認のための情報',
+            'REQ-REOUT-003': '再委託に関する契約記載有無確認のための情報',
+            'REQ-REOUT-004': '再委託先に対する監督の対象事項',
+            'REQ-REOUT-005': '再委託先における安全管理措置の確認対象事項'
+          };
+          
+          // CSVからrequirement_textを取得（なければHTMLセルから取得）
+          let reqText = csvReqTextMap[reqId];
+          if (!reqText) {
+            const clonedCell = reqCell.cloneNode(true);
+            const copyElement = clonedCell.querySelector('.copy-link');
+            if (copyElement) {
+              copyElement.remove();
+            }
+            reqText = clonedCell.textContent.trim();
           }
-          const reqText = clonedCell.textContent.trim();
           
           // パーマリンク生成の厳格化：row.idをそのまま使用（加工禁止）
           const base = window.location.href.split('#')[0];

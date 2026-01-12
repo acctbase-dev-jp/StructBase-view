@@ -177,27 +177,27 @@
       </thead>
       <tbody>
         <tr data-req-id="REQ-SAAS-001">
-          <td class="req-cell"><span id="REQ-SAAS-001" class="req-anchor"></span>SaaS利用に伴い委託に該当するか否かを確認するための情報整理を行う</td>
+          <td class="req-cell"><span id="REQ-SAAS-001" class="req-anchor"></span>SaaS利用に伴う委託該当性確認のための情報</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-SAAS-002">
-          <td class="req-cell"><span id="REQ-SAAS-002" class="req-anchor"></span>SaaS提供事業者における個人データの取扱い有無を確認する</td>
+          <td class="req-cell"><span id="REQ-SAAS-002" class="req-anchor"></span>SaaS提供事業者における個人データ取扱い有無</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-SAAS-003">
-          <td class="req-cell"><span id="REQ-SAAS-003" class="req-anchor"></span>委託先における安全管理措置の内容について確認が求められている事項を把握する</td>
+          <td class="req-cell"><span id="REQ-SAAS-003" class="req-anchor"></span>委託先における安全管理措置の確認対象事項</td>
           <td>個人情報保護法ガイドライン（通則編） / 第11章</td>
           <td><a class="btn-link" href="https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-SAAS-004">
-          <td class="req-cell"><span id="REQ-SAAS-004" class="req-anchor"></span>個人データの取扱いに関する事項を契約内容に含める必要がある事項を把握する</td>
+          <td class="req-cell"><span id="REQ-SAAS-004" class="req-anchor"></span>個人データ取扱いに関する契約記載事項</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
         <tr data-req-id="REQ-SAAS-005">
-          <td class="req-cell"><span id="REQ-SAAS-005" class="req-anchor"></span>委託先に対する監督が求められている事項を把握する</td>
+          <td class="req-cell"><span id="REQ-SAAS-005" class="req-anchor"></span>委託先に対する監督の対象事項</td>
           <td>個人情報保護法 / 第27条</td>
           <td><a class="btn-link" href="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057" target="_blank">一次情報を開く</a></td>
         </tr>
@@ -235,13 +235,25 @@
           e.preventDefault();
           e.stopPropagation();
           
-          // 要件セルをcloneしてcopy要素だけ除去
-          const clonedCell = reqCell.cloneNode(true);
-          const copyElement = clonedCell.querySelector('.copy-link');
-          if (copyElement) {
-            copyElement.remove();
+          // CSV requirement_text マッピング
+          const csvReqTextMap = {
+            'REQ-SAAS-001': 'SaaS利用に伴う委託該当性確認のための情報',
+            'REQ-SAAS-002': 'SaaS提供事業者における個人データ取扱い有無',
+            'REQ-SAAS-003': '委託先における安全管理措置の確認対象事項',
+            'REQ-SAAS-004': '個人データ取扱いに関する契約記載事項',
+            'REQ-SAAS-005': '委託先に対する監督の対象事項'
+          };
+          
+          // CSVからrequirement_textを取得（なければHTMLセルから取得）
+          let reqText = csvReqTextMap[reqId];
+          if (!reqText) {
+            const clonedCell = reqCell.cloneNode(true);
+            const copyElement = clonedCell.querySelector('.copy-link');
+            if (copyElement) {
+              copyElement.remove();
+            }
+            reqText = clonedCell.textContent.trim();
           }
-          const reqText = clonedCell.textContent.trim();
           
           // パーマリンク生成の厳格化：row.idをそのまま使用（加工禁止）
           const base = window.location.href.split('#')[0];
