@@ -1,9 +1,8 @@
-/plan            /plan/index.html            200
-/plan/           /plan/index.html            200
+# plan（ディレクトリ index で表示）
+/plan        /plan/                     301
+/plan/       /plan/index.html           200
 
-/legal/tokusho   /legal/tokusho.html         200
-/legal/tokusho/  /legal/tokusho.html         200
+# legal（HTMLを正本にしてループを止める）
+/legal/tokusho     /legal/tokusho.html  301
 
-/legal/tokusho.html /legal/tokusho.html      200
-
-/*               /index.html                 200
+# 重要：ここから下に「/* /index.html 200」みたいな全体rewriteは絶対に置かない
