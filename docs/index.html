@@ -81,6 +81,20 @@
       color: var(--muted);
     }
 
+    .plan-link {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 16px;
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
+    }
+
+    .plan-link:hover {
+      text-decoration-color: var(--link);
+    }
+
     main {
       padding-top: 40px;
     }
@@ -125,6 +139,52 @@
       text-decoration: underline;
     }
 
+    .biz-block {
+      margin-top: 32px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel-bg);
+    }
+
+    .biz-title {
+      font-size: 20px;
+      font-weight: 650;
+      margin: 0 0 16px 0;
+    }
+
+    .biz-block p {
+      margin: 0 0 16px 0;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .biz-list {
+      margin: 16px 0;
+      padding-left: 24px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .biz-list li {
+      margin-bottom: 8px;
+    }
+
+    .biz-cta {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
+    }
+
+    .biz-cta:hover {
+      text-decoration-color: var(--link);
+    }
+
     .notes {
       margin-top: 40px;
       padding-top: 28px;
@@ -148,6 +208,12 @@
       .logo { font-size: 26px; }
       .tagline1 { font-size: 19px; }
       .tagline2 { font-size: 16px; }
+      .plan-link { font-size: 15px; margin-top: 10px; }
+      .biz-block { margin-top: 24px; padding: 20px; }
+      .biz-title { font-size: 18px; }
+      .biz-block p { font-size: 16px; }
+      .biz-list { font-size: 16px; }
+      .biz-cta { font-size: 16px; }
       .db-name { font-size: 19px; }
     }
   </style>
@@ -161,6 +227,7 @@
           <h1 class="logo">StructBase</h1>
           <p class="tagline1">業務向け構造データベース</p>
           <p class="tagline2">判断・解釈・推奨を行わず、構造のみを提供する実務基盤</p>
+          <a class="plan-link" href="./plan/">▶ 業務で使う場合（CSV出力・保存）はこちら</a>
         </header>
 
         <main>
@@ -175,11 +242,27 @@
             </li>
           </ul>
 
+          <div class="biz-block">
+            <h2 class="biz-title">業務で使う方向け（CSV出力・保存）</h2>
+            <p>StructBase は、閲覧は無料ですが、<br>
+            社内業務での利用・CSV保存は業務利用プランの対象です。</p>
+            <ul class="biz-list">
+              <li>イベント別に整理されたCSVを取得できます</li>
+              <li>社内資料・台帳への転記が可能です</li>
+              <li>一定期間、すべてのDBをまとめて保存できます</li>
+            </ul>
+            <a class="biz-cta" href="./plan/">▶ 業務利用プランの詳細を見る</a>
+          </div>
+
           <section class="notes">
             <p>※ 本サイトは、判断・解釈・助言・推奨を提供するものではありません。<br>
             実務上の判断および対応は、事業者または専門家の責任において行ってください。</p>
 
             <p>※ 各データベースは特定の範囲・観点に基づいて構成されており、網羅性・最新性・完全性を保証するものではありません。</p>
+
+            <p>
+              <a href="./docs/legal/tokusho.html">特定商取引法に基づく表記</a>
+            </p>
           </section>
         </main>
       </div>

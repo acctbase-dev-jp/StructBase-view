@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>業務利用プラン | StructBase</title>
+  <meta name="description" content="StructBase 業務利用プラン：CSV出力・保存機能付きの月額プラン。社内業務での利用を想定しています。" />
+  <style>
+    :root{
+      /* 背景と紙面 */
+      --page-bg: #f3f4f6;
+      --panel-bg: #ffffff;
+
+      --fg: #111111;
+      --muted: #555555;
+
+      --line: #e5e7eb;
+      --link: #111111;
+
+      /* 紙面をさらに大型化 */
+      --max: 1240px;
+
+      /* 影は弱く、重さだけ出す */
+      --shadow: 0 2px 4px rgba(0,0,0,0.06), 0 16px 40px rgba(0,0,0,0.08);
+
+      --radius: 18px;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--page-bg);
+      color: var(--fg);
+      font-size: 20px;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.01em;
+    }
+
+    .page {
+      padding: 56px 28px 88px 28px;
+    }
+
+    .panel {
+      max-width: var(--max);
+      margin: 0 auto;
+      background: var(--panel-bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .inner {
+      padding: 56px 56px 64px 56px;
+    }
+
+    header {
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      font-size: 16px;
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
+    }
+
+    .back-link:hover {
+      text-decoration-color: var(--link);
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 750;
+      margin: 0 0 16px 0;
+      letter-spacing: 0.02em;
+    }
+
+    main {
+      padding-top: 40px;
+    }
+
+    .content-section {
+      margin-bottom: 48px;
+    }
+
+    .content-section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 650;
+      margin: 0 0 20px 0;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--panel-bg);
+    }
+
+    th, td {
+      padding: 20px 24px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      font-size: 18px;
+    }
+
+    th {
+      font-weight: 650;
+      background: var(--panel-bg);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul {
+      margin: 16px 0;
+      padding-left: 24px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .faq-item {
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .faq-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .faq-q {
+      font-weight: 650;
+      margin: 0 0 12px 0;
+      font-size: 18px;
+    }
+
+    .faq-a {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .cta-link {
+      display: inline-block;
+      margin: 24px 0 8px 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
+    }
+
+    .cta-link:hover {
+      text-decoration-color: var(--link);
+    }
+
+    .cta-note {
+      font-size: 16px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .notes {
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .notes p {
+      margin: 0 0 16px 0;
+    }
+
+    .notes p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+      html, body { font-size: 18px; }
+      .page { padding: 32px 16px 48px 16px; }
+      .inner { padding: 32px 20px 36px 20px; }
+      h1 { font-size: 26px; }
+      h2 { font-size: 19px; }
+      p { font-size: 16px; }
+      ul { font-size: 16px; }
+      th, td { 
+        padding: 16px 18px;
+        font-size: 16px;
+      }
+      .faq-q, .faq-a { font-size: 16px; }
+      .cta-link { font-size: 16px; }
+      .cta-note { font-size: 15px; }
+      .back-link { font-size: 15px; margin-bottom: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="panel">
+      <div class="inner">
+        <header>
+          <a class="back-link" href="../">← トップページに戻る</a>
+          <h1>業務利用プラン（CSV出力・保存）</h1>
+        </header>
+
+        <main>
+          <div class="content-section">
+            <p>社内で制度対応や要件確認を行う業務利用を想定したプランです。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>無料との差分</h2>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>項目</th>
+                    <th>無料閲覧</th>
+                    <th>業務利用プラン</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Webでの閲覧</td>
+                    <td>可能</td>
+                    <td>可能</td>
+                  </tr>
+                  <tr>
+                    <td>イベント別の確認</td>
+                    <td>可能</td>
+                    <td>可能</td>
+                  </tr>
+                  <tr>
+                    <td>CSV出力・保存</td>
+                    <td>不可</td>
+                    <td>可能</td>
+                  </tr>
+                  <tr>
+                    <td>社内資料への転記</td>
+                    <td>不可</td>
+                    <td>可能</td>
+                  </tr>
+                  <tr>
+                    <td>一定期間の保存</td>
+                    <td>不可</td>
+                    <td>可能</td>
+                  </tr>
+                  <tr>
+                    <td>すべてのDBを利用</td>
+                    <td>不可</td>
+                    <td>可能</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="content-section">
+            <h2>価格</h2>
+            <p>月額 3,000円（税込）</p>
+          </div>
+
+          <div class="content-section">
+            <h2>内容</h2>
+            <ul>
+              <li>契約期間中、すべてのDBをCSVでダウンロードできます</li>
+              <li>ダウンロードしたCSVは、社内業務・資料作成に利用できます</li>
+              <li>法的判断や最終判断を代替するものではありません</li>
+            </ul>
+          </div>
+
+          <div class="content-section">
+            <h2>よくある質問</h2>
+            <div class="faq-item">
+              <p class="faq-q">Q. 法的に正しいと保証されますか？</p>
+              <p class="faq-a">A. 本データベースは、法令・公式ガイドライン等の一次情報に基づき整理した参照用データです。法的判断や最終的な適否判断を保証するものではありません。</p>
+            </div>
+            <div class="faq-item">
+              <p class="faq-q">Q. 監修者や専門家は付いていますか？</p>
+              <p class="faq-a">A. 監修・評価・推奨は行っていません。解釈を加えない構造化参照データとして提供しています。</p>
+            </div>
+            <div class="faq-item">
+              <p class="faq-q">Q. ダウンロードしたCSVを社外に配布できますか？</p>
+              <p class="faq-a">A. 社内業務利用を前提としています。第三者への再配布や再販売はできません。</p>
+            </div>
+          </div>
+
+          <div class="content-section">
+            <a class="cta-link" href="#purchase">▶ 業務利用プランに申し込む</a>
+            <p class="cta-note">※ 本プランは、業務での利用・保存を目的とした月額プランです。</p>
+            <p class="cta-note">
+              <a href="/docs/legal/tokusho.html">特定商取引法に基づく表記</a>
+            </p>
+          </div>
+
+          <section class="notes">
+            <p>※ 本サイトは、判断・解釈・助言・推奨を提供するものではありません。<br>
+            実務上の判断および対応は、事業者または専門家の責任において行ってください。</p>
+            <p>
+              <a href="/docs/legal/tokusho.html">特定商取引法に基づく表記</a>
+            </p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
