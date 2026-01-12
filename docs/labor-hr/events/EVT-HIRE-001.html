@@ -238,7 +238,7 @@
           }
           const reqText = clonedCell.textContent.trim();
           
-          // パーマリンク生成（完全一致：reqIdをそのまま使用）
+          // パーマリンク生成の厳格化：row.idをそのまま使用（加工禁止）
           const base = window.location.href.split('#')[0];
           const permalink = base + '#' + reqId;
           
@@ -258,23 +258,23 @@
         });
       });
       
-      // アンカーへのスクロール処理（#が付くのに飛ばない問題の保険）
+      // アンカー遷移の確実化（保険処理）
       function scrollToAnchor() {
         const hash = window.location.hash;
         if (hash) {
           const targetId = hash.substring(1); // '#' を除去
           const targetElement = document.getElementById(targetId);
           if (targetElement) {
-            targetElement.scrollIntoView({block: 'start'});
+            targetElement.scrollIntoView({ block: 'start' });
             return true;
           }
         }
         return false;
       }
       
-      // DOMContentLoaded 後に一度探す
+      // DOMContentLoaded 後に一度実行
       if (!scrollToAnchor()) {
-        // 見つからない場合、setTimeout で 0ms〜50ms 程度の遅延でもう一度だけ探す
+        // 見つからない場合、setTimeout（20〜50ms）で一度だけ再試行
         setTimeout(function() {
           scrollToAnchor();
         }, 30);
