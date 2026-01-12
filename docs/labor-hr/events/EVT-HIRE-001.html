@@ -269,25 +269,64 @@
       
       // アンカー遷移の確実化（保険処理）
       function scrollToAnchor() {
-        const hash = window.location.hash;
-        if (hash) {
-          const targetId = hash.substring(1); // '#' を除去
-          const targetElement = document.getElementById(targetId);
-          if (targetElement) {
-            targetElement.scrollIntoView({ block: 'start' });
-            return true;
+        const targetId = decodeURIComponent(window.location.hash).replace(/^#/, '');
+        if (!targetId) {
+          return;
+        }
+        
+        let scrollTarget = null;
+        
+        // まず document.getElementById(targetId) を探す
+        const el = document.getElementById(targetId);
+        if (el) {
+          // el.closest('tr') があるならそれを scrollTarget にする（最優先）
+          const tr = el.closest('tr');
+          if (tr) {
+            scrollTarget = tr;
+          } else {
+            // なければ el.closest('td') があるならそれを scrollTarget にする
+            const td = el.closest('td');
+            if (td) {
+              scrollTarget = td;
+            } else {
+              // それも無ければ el を scrollTarget にする
+              scrollTarget = el;
+            }
+          }
+        } else {
+          // id が見つからない場合は、tr[data-req-id="TARGET"] を探す
+          const row = document.querySelector(`tr[data-req-id="${targetId}"]`);
+          if (row) {
+            scrollTarget = row;
           }
         }
-        return false;
+        
+        // スクロール実行
+        if (scrollTarget) {
+          scrollTarget.scrollIntoView({ block: 'start' });
+        }
       }
       
-      // DOMContentLoaded 後に一度実行
-      if (!scrollToAnchor()) {
-        // 見つからない場合、setTimeout（20〜50ms）で一度だけ再試行
+      // リトライ付きスクロール実行
+      function executeScrollWithRetry() {
+        scrollToAnchor();
         setTimeout(function() {
           scrollToAnchor();
-        }, 30);
+        }, 50);
+        setTimeout(function() {
+          scrollToAnchor();
+        }, 200);
       }
+      
+      // load イベントで実行（3回リトライ）
+      window.addEventListener('load', function() {
+        executeScrollWithRetry();
+      });
+      
+      // hashchange でも同じ処理を実行
+      window.addEventListener('hashchange', function() {
+        executeScrollWithRetry();
+      });
       
       function fallbackCopy(text, element) {
         const textarea = document.createElement('textarea');
