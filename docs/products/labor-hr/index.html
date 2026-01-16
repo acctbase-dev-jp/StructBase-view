@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>労務・人事制度｜業務確認用 CSV | StructBase</title>
+  <meta name="description" content="StructBase 労務・人事制度｜業務確認用 CSV：労務・人事制度に関する業務確認用に整形したCSVデータを提供します。" />
+  <style>
+    :root{
+      /* 背景と紙面 */
+      --page-bg: #f3f4f6;
+      --panel-bg: #ffffff;
+
+      --fg: #111111;
+      --muted: #555555;
+
+      --line: #e5e7eb;
+      --link: #111111;
+
+      /* 紙面をさらに大型化 */
+      --max: 1240px;
+
+      /* 影は弱く、重さだけ出す */
+      --shadow: 0 2px 4px rgba(0,0,0,0.06), 0 16px 40px rgba(0,0,0,0.08);
+
+      --radius: 18px;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--page-bg);
+      color: var(--fg);
+      font-size: 20px;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.01em;
+    }
+
+    .page {
+      padding: 56px 28px 88px 28px;
+    }
+
+    .panel {
+      max-width: var(--max);
+      margin: 0 auto;
+      background: var(--panel-bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .inner {
+      padding: 56px 56px 64px 56px;
+    }
+
+    header {
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      font-size: 16px;
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
+    }
+
+    .back-link:hover {
+      text-decoration-color: var(--link);
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 750;
+      margin: 0 0 16px 0;
+      letter-spacing: 0.02em;
+    }
+
+    main {
+      padding-top: 40px;
+    }
+
+    .content-section {
+      margin-bottom: 48px;
+    }
+
+    .content-section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 650;
+      margin: 0 0 20px 0;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--panel-bg);
+    }
+
+    th, td {
+      padding: 20px 24px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      font-size: 18px;
+    }
+
+    th {
+      font-weight: 650;
+      background: var(--panel-bg);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul {
+      margin: 16px 0;
+      padding-left: 24px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .faq-item {
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .faq-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .faq-q {
+      font-weight: 650;
+      margin: 0 0 12px 0;
+      font-size: 18px;
+    }
+
+    .faq-a {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .cta-link {
+      display: inline-block;
+      margin: 24px 0 8px 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
+    }
+
+    .cta-link:hover {
+      text-decoration-color: var(--link);
+    }
+
+    .cta-note {
+      font-size: 16px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .notes {
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .notes p {
+      margin: 0 0 16px 0;
+    }
+
+    .notes p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+      html, body { font-size: 18px; }
+      .page { padding: 32px 16px 48px 16px; }
+      .inner { padding: 32px 20px 36px 20px; }
+      h1 { font-size: 26px; }
+      h2 { font-size: 19px; }
+      p { font-size: 16px; }
+      ul { font-size: 16px; }
+      th, td { 
+        padding: 16px 18px;
+        font-size: 16px;
+      }
+      .faq-q, .faq-a { font-size: 16px; }
+      .cta-link { font-size: 16px; }
+      .cta-note { font-size: 15px; }
+      .back-link { font-size: 15px; margin-bottom: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="panel">
+      <div class="inner">
+        <header>
+          <a class="back-link" href="../../">← トップページに戻る</a>
+          <a class="back-link" href="../../plan/">← 業務利用プランに戻る</a>
+          <h1>労務・人事制度｜業務確認用 CSV</h1>
+        </header>
+
+        <main>
+          <div class="content-section">
+            <h2>この商品について</h2>
+            <p>この商品は、労務および人事制度に関する業務確認用CSVです。</p>
+            <p>労務・人事制度に関する要件を、業務で確認しやすい形式に整理した参照データを提供します。</p>
+            <p>判断・解釈・推奨を行わない参照用データです。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>この商品が対象とする業務範囲</h2>
+            <p>この商品は、雇用管理、労働条件、労働時間、賃金、社会保険、労務手続など、</p>
+            <p>労務および人事制度に関する業務を対象とします。</p>
+            <p>労務・人事制度に関する要件を、業務確認用に整理した参照データです。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>提供するCSVの構成</h2>
+            <p>提供するCSVには、包括CSVとイベント別CSVの2種類があります。</p>
+            <p>包括CSVは、労務・人事制度に関する複数の業務イベントを1つのファイルにまとめた形式です。</p>
+            <p>イベント別CSVは、各業務イベントごとに分割した形式です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>包括CSVとイベント別CSVの違い</h2>
+            <p>包括CSVは、複数の業務イベントを横断して確認するための形式です。</p>
+            <p>イベント別CSVは、特定の業務イベントに限定して確認するための形式です。</p>
+            <p>いずれのCSVも、列構成は同一です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>CSVの性質（業務確認用データ）</h2>
+            <p>提供するCSVは、労務・人事制度に関する要件を、</p>
+            <p>業務確認用に整形・変換した参照データです。</p>
+            <p>適法性や対応可否を判断するものではありません。</p>
+            <p>正本CSVとは分離した購入者向け成果物です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>check_status 列について</h2>
+            <p>CSVには check_status 列が含まれます。</p>
+            <p>この列では、以下の4つの値を使用できます。</p>
+            <ul>
+              <li>not_checked：未確認の状態を示します。</li>
+              <li>checking：確認中の状態を示します。</li>
+              <li>checked：確認済みの状態を示します。</li>
+              <li>not_applicable：該当しない状態を示します。</li>
+            </ul>
+            <p>これらの値は、要件の適否や実施可否を示すものではありません。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>利用方法の想定（概要）</h2>
+            <p>提供するCSVは、社内における労務・人事制度に関する確認作業を想定しています。</p>
+            <p>業務手続の整理や、確認状況の管理に利用できます。</p>
+            <p>最終的な判断および対応は、利用者自身で行う前提です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>提供しないこと・できないこと</h2>
+            <p>この商品は、判断・解釈・推奨を行いません。</p>
+            <p>法令解釈や個別事案への助言は行いません。</p>
+            <p>内容の正確性や適法性を保証するものではありません。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>利用条件・制限事項</h2>
+            <p>提供するCSVは、社内業務利用を前提としています。</p>
+            <p>第三者への再配布はできません。</p>
+            <p>再販売はできません。</p>
+            <p>社外への共有はできません。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>無料VIEWとの関係</h2>
+            <p>無料VIEWでは、Web上で内容を閲覧できます。</p>
+            <p>CSV形式での取得や保存はできません。</p>
+            <p>本商品では、CSVの取得、社内業務での利用、一定期間の保存が可能です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>READMEについて</h2>
+            <p>購入後、READMEファイルが付属します。</p>
+            <p>READMEには、CSVの列の意味および利用上の注意事項が記載されています。</p>
+            <p>CSVを利用する前に、READMEの内容を確認してください。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>購入・提供方法</h2>
+            <p>この商品は、業務利用プランで提供します。</p>
+            <p>決済条件および提供条件の詳細は、プランページを参照してください。</p>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

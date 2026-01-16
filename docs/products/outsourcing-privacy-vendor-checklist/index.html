@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>業務利用プラン | StructBase</title>
-  <meta name="description" content="StructBase 業務利用プラン：CSV出力・保存機能付きの月額プラン。社内業務での利用を想定しています。" />
+  <title>委託先管理・個人情報保護｜業務確認用 CSV | StructBase</title>
+  <meta name="description" content="StructBase 委託先管理・個人情報保護｜業務確認用 CSV：業務確認用に整形したCSVデータを提供します。" />
   <style>
     :root{
       /* 背景と紙面 */
@@ -238,116 +238,80 @@
     <div class="panel">
       <div class="inner">
         <header>
-          <a class="back-link" href="../">← トップページに戻る</a>
-          <h1>業務利用プラン（CSV提供）</h1>
+          <a class="back-link" href="../../">← トップページに戻る</a>
+          <a class="back-link" href="../../plan/">← 業務利用プランに戻る</a>
+          <h1>委託先管理・個人情報保護｜業務確認用 CSV</h1>
         </header>
 
         <main>
           <div class="content-section">
-            <p>社内で制度対応や要件確認を行う業務利用を想定したプランです。契約後に、業務利用向けに整形・変換したCSVをメールで提供します。</p>
+            <h2>この商品について</h2>
+            <p>この商品は、委託先管理と個人情報保護に関する業務確認用CSVです。業務で扱いやすい形式に整形・変換したCSVを提供します。判断・解釈・推奨を行わない参照用データです。</p>
           </div>
 
           <div class="content-section">
-            <h2>無料との差分</h2>
-            <div class="table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th>項目</th>
-                    <th>無料閲覧</th>
-                    <th>業務利用プラン</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Webでの閲覧</td>
-                    <td>可能</td>
-                    <td>可能</td>
-                  </tr>
-                  <tr>
-                    <td>イベント別の確認</td>
-                    <td>可能</td>
-                    <td>可能</td>
-                  </tr>
-                  <tr>
-                    <td>CSV取得</td>
-                    <td>不可</td>
-                    <td>可能（整形済みCSVをメールで提供）</td>
-                  </tr>
-                  <tr>
-                    <td>社内資料への転記</td>
-                    <td>不可</td>
-                    <td>可能</td>
-                  </tr>
-                  <tr>
-                    <td>一定期間の保存</td>
-                    <td>不可</td>
-                    <td>可能</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <h2>この商品が対象とする業務範囲</h2>
+            <p>この商品は、個人情報の取扱いを委託する業務と、委託先に対する管理業務を対象とします。個人情報保護法に基づく委託先管理に関する要件を、業務確認用に整理した参照データです。</p>
           </div>
 
           <div class="content-section">
-            <h2>価格</h2>
-            <p>月額 3,000円（税込）</p>
+            <h2>提供するCSVの構成</h2>
+            <p>提供するCSVには、包括CSVとイベント別CSVの2種類があります。包括CSVは全イベントを1つのファイルにまとめたものです。イベント別CSVは、個別のイベントごとに分割したファイルです。</p>
           </div>
 
           <div class="content-section">
-            <h2>内容</h2>
+            <h2>包括CSVとイベント別CSVの違い</h2>
+            <p>包括CSVは、すべてのイベントを1つのファイルにまとめた形式です。イベント別CSVは、各イベントを個別のファイルに分割した形式です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>CSVの性質（業務確認用データ）</h2>
+            <p>提供するCSVは、業務確認用に整形・変換したデータです。判断・解釈・推奨を行わない参照用データとして提供します。正本CSVとは分離した購入者向け成果物です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>check_status 列について</h2>
+            <p>CSVには check_status 列が含まれます。この列では、以下の4つの値を使用できます。</p>
             <ul>
-              <li>契約後に、整形・変換済みCSVをメールで提供する</li>
-              <li>社内業務・資料作成で利用できる（社外共有・再配布・再販売は不可）</li>
-              <li>判断・解釈・助言・推奨を行うものではない</li>
+              <li>not_checked: 未確認の状態を示します。</li>
+              <li>checking: 確認中の状態を示します。</li>
+              <li>checked: 確認済みの状態を示します。</li>
+              <li>not_applicable: 該当しない状態を示します。</li>
             </ul>
-            <p>提供するCSVは、業務で扱いやすい形式に整形・変換したものです。必要に応じて、参照用として正本CSVも併せて提供します。</p>
           </div>
 
           <div class="content-section">
-            <h2>提供中の業務確認用CSV</h2>
-            <p>
-              業務利用プランでは、特定の業務領域ごとに整理された「業務確認用CSV」を提供しています。
-              各CSVの対象業務、提供形式、利用上の注意事項は、個別の商品ページで確認できます。
-            </p>
-            <p>
-              <a class="cta-link" href="/products/outsourcing-privacy-vendor-checklist/">
-                委託先管理・個人情報保護｜業務確認用 CSV
-              </a>
-            </p>
+            <h2>利用方法の想定（概要）</h2>
+            <p>提供するCSVは、社内での業務確認や要件確認に利用することを想定しています。社内資料への転記や、一定期間の保存が可能です。</p>
           </div>
 
           <div class="content-section">
-            <h2>よくある質問</h2>
-            <div class="faq-item">
-              <p class="faq-q">Q. 法的に正しいと保証されますか？</p>
-              <p class="faq-a">A. 本データベースは、法令・公式ガイドライン等の一次情報に基づき整理した参照用データです。法的判断や最終的な適否判断を保証するものではありません。</p>
-            </div>
-            <div class="faq-item">
-              <p class="faq-q">Q. 監修者や専門家は付いていますか？</p>
-              <p class="faq-a">A. 監修・評価・推奨は行っていません。解釈を加えない構造化参照データとして提供しています。</p>
-            </div>
-            <div class="faq-item">
-              <p class="faq-q">Q. メールで提供されたCSVを社外に配布できますか？</p>
-              <p class="faq-a">A. 社内業務利用を前提としています。第三者への再配布や再販売はできません。</p>
-            </div>
+            <h2>提供しないこと・できないこと</h2>
+            <p>この商品は判断・解釈・推奨を行いません。法的判断や最終的な適否判断を保証するものではありません。監修・評価・推奨は行っていません。</p>
           </div>
 
           <div class="content-section">
-            <span class="cta-link" aria-disabled="true">▶ 業務利用プランは準備中（現在は決済停止中）</span>
-            <p class="cta-note">お問い合わせ: info@acctbase.com</p>
-            <p class="cta-note">※ 本プランは、業務での利用・保存を目的とした月額プランです。</p>
-            <p class="cta-note">
-              <a href="https://structbase.org/legal/tokusho/">特定商取引法に基づく表記</a>
-            </p>
+            <h2>利用条件・制限事項</h2>
+            <p>提供するCSVは、社内業務利用を前提としています。第三者への再配布はできません。再販売はできません。社外共有はできません。</p>
           </div>
 
-          <section class="notes">
-            <p>※ 本サイトは、判断・解釈・助言・推奨を提供するものではありません。実務上の判断および対応は、事業者または専門家の責任において行ってください。</p>
+          <div class="content-section">
+            <h2>無料VIEWとの関係</h2>
+            <p>無料VIEWでは、Webでの閲覧とイベント別の確認が可能です。CSV取得はできません。この商品では、CSV取得と社内資料への転記、一定期間の保存が可能です。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>READMEについて</h2>
+            <p>購入後、READMEファイルが付属します。READMEには、CSVの列の意味と注意事項が記載されています。CSVの利用前に、READMEの内容を確認してください。</p>
+          </div>
+
+          <div class="content-section">
+            <h2>購入・提供方法</h2>
+            <p>この商品は、業務利用プランで提供します。詳細はプランページを参照してください。</p>
             <p>
-              <a href="https://structbase.org/legal/tokusho/">特定商取引法に基づく表記</a>
+              <a class="cta-link" href="../../plan/">業務利用プラン</a>
             </p>
-          </section>
+          </div>
         </main>
       </div>
     </div>
