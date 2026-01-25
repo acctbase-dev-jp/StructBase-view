@@ -1,0 +1,9 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+定年到達,LH-REQ-TERM04-001,定年年齢の法令禁止年齢未満設定の有無,law,高年齢者等の雇用の安定等に関する法律,第8条／第9条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000263
+定年到達,LH-REQ-TERM04-002,定年定めの就業規則等への明示状況,law,高年齢者等の雇用の安定等に関する法律,第8条／第9条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000264
+定年到達,LH-REQ-TERM04-003,定年到達後の雇用確保措置の実施状況,law,高年齢者等の雇用の安定等に関する法律,第8条／第9条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000265
+定年到達,LH-REQ-TERM04-004,定年到達を理由とする不利益取扱いの法令非該当性,law,高年齢者等の雇用の安定等に関する法律,第8条／第9条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000266
+定年到達,LH-REQ-TERM04-005,定年到達に伴う雇用管理取扱いにおける性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000267
+定年到達,LH-REQ-TERM04-006,定年到達後の雇用継続または終了判断基準における性別条件または区別の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000268
+定年到達,LH-REQ-TERM04-007,定年到達後の労働条件または終了取扱いにおける性別不利益差の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000269
+定年到達,LH-REQ-TERM04-008,定年到達に関する説明等における性別差別的表現の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000270

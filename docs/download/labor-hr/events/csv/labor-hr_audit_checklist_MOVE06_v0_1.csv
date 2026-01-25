@@ -1,0 +1,4 @@
+﻿event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+出向終了,LH-REQ-MOVE06-001,出向終了時の取扱いにおける労働者供給該当性,law,職業安定法,第44条,https://laws.e-gov.go.jp/law/322AC0000000141/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000271
+出向終了,LH-REQ-MOVE06-002,出向終了後の労働関係整理における労働者供給非該当性,law,職業安定法,第44条,https://laws.e-gov.go.jp/law/322AC0000000141/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000272
+出向終了,LH-REQ-MOVE06-003,出向終了に伴う第三者による労働者供給関係の非該当性,law,職業安定法,第44条,https://laws.e-gov.go.jp/law/322AC0000000141/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000273

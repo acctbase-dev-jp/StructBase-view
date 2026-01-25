@@ -1,0 +1,14 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+雇止め実施,LH-REQ-TERM03-001,雇止めによる契約終了時の有期労働契約該当性,law,労働契約法,第17条／第18条／第19条,https://laws.e-gov.go.jp/law/419AC0000000128/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000250
+雇止め実施,LH-REQ-TERM03-002,雇止め判断における客観的合理性および社会通念上の相当性,law,労働契約法,第17条／第18条／第19条,https://laws.e-gov.go.jp/law/419AC0000000128/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000251
+雇止め実施,LH-REQ-TERM03-003,更新期待が認められる有期労働契約における雇止め取扱いの適法性,law,労働契約法,第17条／第18条／第19条,https://laws.e-gov.go.jp/law/419AC0000000128/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000252
+雇止め実施,LH-REQ-TERM03-004,有期労働契約通算5年超時の無期転換申込み有無の整理状況,law,労働契約法,第17条／第18条／第19条,https://laws.e-gov.go.jp/law/419AC0000000128/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000253
+雇止め実施,LH-REQ-TERM03-005,雇止めにおける権利行使理由該当性の有無,law,労働契約法,第17条／第18条／第19条,https://laws.e-gov.go.jp/law/419AC0000000128/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000254
+雇止め実施,LH-REQ-TERM03-006,雇止め判断における性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000255
+雇止め実施,LH-REQ-TERM03-007,雇止め基準または判断要素における性別条件または区別の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000256
+雇止め実施,LH-REQ-TERM03-008,雇止めに伴う取扱いにおける性別不利益差の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000257
+雇止め実施,LH-REQ-TERM03-009,雇止めに関する説明等における性別差別的表現の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000258
+雇止め実施,LH-REQ-TERM03-010,雇止め判断における年齢差別的取扱いの有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000259
+雇止め実施,LH-REQ-TERM03-011,雇止め基準または判断要素における年齢条件または区別の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000260
+雇止め実施,LH-REQ-TERM03-012,雇止めに至る取扱いにおける年齢不利益差の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000261
+雇止め実施,LH-REQ-TERM03-013,雇止めに関する説明等における年齢差別的記載の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000262

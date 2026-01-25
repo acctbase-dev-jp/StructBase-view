@@ -1,0 +1,10 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+深夜労働の発生,LH-REQ-TIME06-001,午後10時から午前5時までの労働の深夜労働該当性,law,労働基準法,第37条／第61条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000346
+深夜労働の発生,LH-REQ-TIME06-002,深夜労働に対する割増賃金支払状況,law,労働基準法,第37条／第61条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000347
+深夜労働の発生,LH-REQ-TIME06-003,深夜労働に係る割増率の法定下限適合性,law,労働基準法,第37条／第61条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000348
+深夜労働の発生,LH-REQ-TIME06-004,18歳未満者の深夜就業の法令非該当性,law,労働基準法,第37条／第61条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000349
+深夜労働の発生,LH-REQ-TIME06-005,深夜業例外該当時の要件充足状況,law,労働基準法,第37条／第61条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000350
+深夜労働の発生,LH-REQ-TIME06-006,深夜労働該当時間帯の就業時間区分把握状況,law,労働基準法施行規則,第20条,https://laws.e-gov.go.jp/law/322M40000100023/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000351
+深夜労働の発生,LH-REQ-TIME06-007,深夜労働時間数の労働時間記録状況,law,労働基準法施行規則,第20条,https://laws.e-gov.go.jp/law/322M40000100023/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000352
+深夜労働の発生,LH-REQ-TIME06-008,深夜労働に係る割増賃金算定対象時間の区分状況,law,労働基準法施行規則,第20条,https://laws.e-gov.go.jp/law/322M40000100023/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000353
+深夜労働の発生,LH-REQ-TIME06-009,深夜労働に関する記録の保存状況,law,労働基準法施行規則,第20条,https://laws.e-gov.go.jp/law/322M40000100023/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000354
