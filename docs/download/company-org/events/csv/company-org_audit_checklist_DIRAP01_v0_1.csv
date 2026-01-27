@@ -1,0 +1,7 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+取締役を選任する,CO-REQ-DIRAP01-001,取締役選任による登記事項発生の有無,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000051
+取締役を選任する,CO-REQ-DIRAP01-002,選任取締役の氏名その他の登記事項,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000052
+取締役を選任する,CO-REQ-DIRAP01-003,取締役選任決議内容の登記申請書反映状況,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000053
+取締役を選任する,CO-REQ-DIRAP01-004,取締役選任に係る議事録の登記添付要否,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000054
+取締役を選任する,CO-REQ-DIRAP01-005,取締役選任に関する登記申請の適時性,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000055
+取締役を選任する,CO-REQ-DIRAP01-006,登記完了事実の確認記録,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000056

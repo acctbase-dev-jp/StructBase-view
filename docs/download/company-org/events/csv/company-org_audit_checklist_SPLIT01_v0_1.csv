@@ -1,0 +1,7 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+株式分割を実施する,CO-REQ-SPLIT01-001,株式分割実施による登記事項発生の有無,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000168
+株式分割を実施する,CO-REQ-SPLIT01-002,株式分割内容の法定登記事項,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000169
+株式分割を実施する,CO-REQ-SPLIT01-003,株式分割決定内容の登記申請書反映状況,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000170
+株式分割を実施する,CO-REQ-SPLIT01-004,株式分割に係る株主総会または取締役会議事録等の登記添付要否,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000171
+株式分割を実施する,CO-REQ-SPLIT01-005,株式分割に関する登記申請の適時性,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000172
+株式分割を実施する,CO-REQ-SPLIT01-006,登記完了事実の確認記録,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000173

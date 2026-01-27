@@ -1,0 +1,7 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+ストックオプションを付与する,CO-REQ-SOPGR01-001,ストックオプション付与による登記事項発生の有無,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000162
+ストックオプションを付与する,CO-REQ-SOPGR01-002,ストックオプション付与内容の法定登記事項,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000163
+ストックオプションを付与する,CO-REQ-SOPGR01-003,ストックオプション付与決議内容の登記申請書反映状況,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000164
+ストックオプションを付与する,CO-REQ-SOPGR01-004,ストックオプション付与に係る株主総会または取締役会議事録等の登記添付要否,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000165
+ストックオプションを付与する,CO-REQ-SOPGR01-005,ストックオプション付与に関する登記申請の適時性,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000166
+ストックオプションを付与する,CO-REQ-SOPGR01-006,登記完了事実の確認記録,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000167

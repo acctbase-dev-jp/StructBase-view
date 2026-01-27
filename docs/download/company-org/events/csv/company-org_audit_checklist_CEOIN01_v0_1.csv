@@ -1,0 +1,7 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+代表取締役が就任する,CO-REQ-CEOIN01-001,代表取締役就任による登記事項発生の有無,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000075
+代表取締役が就任する,CO-REQ-CEOIN01-002,就任代表取締役の氏名その他の登記事項,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000076
+代表取締役が就任する,CO-REQ-CEOIN01-003,代表取締役就任内容の登記申請書反映状況,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000077
+代表取締役が就任する,CO-REQ-CEOIN01-004,代表取締役就任に係る取締役会議事録等の登記添付要否,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000078
+代表取締役が就任する,CO-REQ-CEOIN01-005,代表取締役就任に関する登記申請の適時性,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000079
+代表取締役が就任する,CO-REQ-CEOIN01-006,登記完了事実の確認記録,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000080

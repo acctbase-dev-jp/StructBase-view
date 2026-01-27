@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+取締役会を開催する,CO-REQ-BOD01-001,取締役会議事録の作成,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000026
+取締役会を開催する,CO-REQ-BOD01-002,取締役会議事録における日時および場所の記載,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000027
+取締役会を開催する,CO-REQ-BOD01-003,取締役会議事録における議事経過および結果の記載,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000028
+取締役会を開催する,CO-REQ-BOD01-004,特別利害関係取締役の氏名の議事録記載,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000029
+取締役会を開催する,CO-REQ-BOD01-005,出席取締役および監査役の署名または記名押印,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000030

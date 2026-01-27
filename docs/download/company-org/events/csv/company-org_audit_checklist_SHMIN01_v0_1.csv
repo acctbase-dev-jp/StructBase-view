@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+株主総会の議事録を作成する,CO-REQ-SHMIN01-001,株主総会議事録の作成,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000016
+株主総会の議事録を作成する,CO-REQ-SHMIN01-002,株主総会議事録における日時および場所の記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000017
+株主総会の議事録を作成する,CO-REQ-SHMIN01-003,株主総会議事録における議事経過および結果の記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000018
+株主総会の議事録を作成する,CO-REQ-SHMIN01-004,株主総会出席取締役等の氏名の議事録記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000019
+株主総会の議事録を作成する,CO-REQ-SHMIN01-005,株主総会議事録の本店備置対象文書該当性,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000020

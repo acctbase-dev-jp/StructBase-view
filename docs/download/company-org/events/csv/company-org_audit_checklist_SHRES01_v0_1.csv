@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+株主総会の決議を実施する,CO-REQ-SHRES01-001,株主総会決議内容の議事録記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000011
+株主総会の決議を実施する,CO-REQ-SHRES01-002,株主総会決議に至る議事経過の記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000012
+株主総会の決議を実施する,CO-REQ-SHRES01-003,株主総会決議結果の議事録記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000013
+株主総会の決議を実施する,CO-REQ-SHRES01-004,株主総会出席取締役等の氏名の議事録記載,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000014
+株主総会の決議を実施する,CO-REQ-SHRES01-005,株主総会決議議事録の本店備置対象文書該当性,law,会社法,第318条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000015

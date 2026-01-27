@@ -1,0 +1,7 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+取締役が退任する,CO-REQ-DIROU01-001,取締役退任による登記事項発生の有無,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000063
+取締役が退任する,CO-REQ-DIROU01-002,退任取締役の氏名その他の登記事項,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000064
+取締役が退任する,CO-REQ-DIROU01-003,取締役退任内容の登記申請書反映状況,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000065
+取締役が退任する,CO-REQ-DIROU01-004,取締役退任に係る議事録等の登記添付要否,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000066
+取締役が退任する,CO-REQ-DIROU01-005,取締役退任に関する登記申請の適時性,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000067
+取締役が退任する,CO-REQ-DIROU01-006,登記完了事実の確認記録,law,会社法,第915条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000068

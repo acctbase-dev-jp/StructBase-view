@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+株主名簿の基準日を設定する,CO-REQ-RDATE01-001,株主名簿基準日の適法設定有無,law,会社法,第124条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000139
+株主名簿の基準日を設定する,CO-REQ-RDATE01-002,基準日に基づく権利行使対象株主の整理状況,law,会社法,第124条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000140
+株主名簿の基準日を設定する,CO-REQ-RDATE01-003,基準日および権利内容に関する公告実施有無,law,会社法,第124条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000141
+株主名簿の基準日を設定する,CO-REQ-RDATE01-004,基準日前二週間以内の公告実施状況,law,会社法,第124条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000142
+株主名簿の基準日を設定する,CO-REQ-RDATE01-005,基準日設定内容の株主名簿管理反映状況,law,会社法,第124条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000143

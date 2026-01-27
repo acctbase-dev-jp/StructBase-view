@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+報酬委員会を開催する,CO-REQ-REMCO01-001,報酬委員会議事録の作成有無,law,会社法,第404条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000191
+報酬委員会を開催する,CO-REQ-REMCO01-002,報酬委員会の開催日時および開催場所の記載有無,law,会社法,第404条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000192
+報酬委員会を開催する,CO-REQ-REMCO01-003,報酬委員会議事の経過要領および結果の記載有無,law,会社法,第404条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000193
+報酬委員会を開催する,CO-REQ-REMCO01-004,報酬委員会決議参加委員の氏名記載有無,law,会社法,第404条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000194
+報酬委員会を開催する,CO-REQ-REMCO01-005,報酬委員会議事録の法定備置対象該当性,law,会社法,第404条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000195

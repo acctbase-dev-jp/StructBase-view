@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSVダウンロード | StructBase</title>
-  <meta name="description" content="StructBase CSVダウンロード：労務・人事制度のCSVを取得できます。" />
+  <title>会社機関・規程運営｜業務確認用 CSV | StructBase</title>
+  <meta name="description" content="会社機関・規程運営｜業務確認用 CSV のダウンロードページ" />
   <style>
     :root{
       /* 背景と紙面 */
@@ -95,83 +95,64 @@
       color: var(--muted);
     }
 
-    .plan-link {
-      display: inline-block;
-      margin-top: 12px;
-      font-size: 16px;
-      color: var(--link);
-      text-decoration: underline;
-      text-decoration-color: var(--line);
-      text-underline-offset: 4px;
-    }
-
-    .plan-link:hover {
-      text-decoration-color: var(--link);
-    }
-
     main {
       padding-top: 40px;
     }
 
-    h2 {
-      font-size: 22px;
+    h1 {
+      font-size: 28px;
       font-weight: 650;
       margin: 0 0 24px 0;
     }
 
-    .download-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    .intro {
+      font-size: 18px;
+      margin: 0 0 32px 0;
+      line-height: 1.8;
+    }
+
+    .disclaimer {
+      margin: 0 0 40px 0;
+      padding: 24px;
       border: 1px solid var(--line);
       border-radius: 16px;
-      overflow: hidden;
       background: var(--panel-bg);
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.8;
     }
 
-    .download-item {
-      padding: 26px 28px;
-      border-top: 1px solid var(--line);
+    .download-section {
+      margin: 0 0 40px 0;
     }
 
-    .download-item:first-child {
-      border-top: none;
-    }
-
-    .download-name {
-      display: block;
+    .download-link {
+      display: inline-block;
       font-size: 22px;
       font-weight: 650;
       color: var(--link);
-      text-decoration: none;
+      text-decoration: underline;
+      text-decoration-color: var(--line);
+      text-underline-offset: 4px;
       margin-bottom: 8px;
     }
 
-    .download-name:hover {
-      text-decoration: underline;
+    .download-link:hover {
+      text-decoration-color: var(--link);
     }
 
-    .download-desc {
-      font-size: 18px;
+    .download-note {
+      font-size: 16px;
       color: var(--muted);
       margin: 0;
       line-height: 1.8;
     }
 
-    .notes {
-      margin-top: 40px;
-      padding-top: 28px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
+    .contact {
+      margin: 0 0 32px 0;
       font-size: 16px;
-    }
-
-    .notes p {
-      margin: 0 0 16px 0;
-    }
-
-    .notes p:last-child {
-      margin-bottom: 0;
+      color: var(--muted);
+      line-height: 1.8;
     }
 
     @media (max-width: 768px) {
@@ -182,10 +163,12 @@
       .tagline1 { font-size: 19px; }
       .tagline2 { font-size: 16px; }
       .back-link { font-size: 15px; margin-bottom: 20px; }
-      .plan-link { font-size: 15px; margin-top: 10px; }
-      h2 { font-size: 19px; }
-      .download-name { font-size: 19px; }
-      .download-desc { font-size: 16px; }
+      h1 { font-size: 24px; }
+      .intro { font-size: 16px; }
+      .download-link { font-size: 19px; }
+      .download-note { font-size: 15px; }
+      .contact { font-size: 15px; }
+      .disclaimer { font-size: 15px; padding: 20px; }
     }
   </style>
 </head>
@@ -195,36 +178,35 @@
     <div class="panel">
       <div class="inner">
         <header>
-          <a class="back-link" href="../index.html">← トップページに戻る</a>
+          <a class="back-link" href="/download/">← Downloads に戻る</a>
           <h1 class="logo">StructBase</h1>
           <p class="tagline1">業務向け構造データベース</p>
           <p class="tagline2">判断・解釈・推奨を行わず、構造のみを提供する実務基盤</p>
         </header>
 
         <main>
-          <h2>Downloads</h2>
-          <p class="download-desc">
-本ページは、StructBaseの有料CSVを購入された方を対象としたダウンロードページです。
-</p>
+          <h1>会社機関・規程運営｜業務確認用 CSV</h1>
 
-          <ul class="download-list">
-            <li class="download-item">
-              <a class="download-name" href="labor-hr/">労務・人事制度</a>
-              <p class="download-desc">イベント別CSVを取得できます。</p>
-            </li>
-            <li class="download-item">
-              <a class="download-name" href="company-org/">会社機関・規程運営</a>
-              <p class="download-desc">イベント別CSVを取得できます。</p>
-            </li>
-          </ul>
+          <p class="intro">
+本ページは、当該CSVを購入された方を対象としたダウンロードページです。
+          </p>
 
-          <section class="notes">
-            <p>※ 本ページで提供されるCSVは、判断・解釈・助言・推奨を行うものではありません。<br>
-            実務上の判断および対応は、利用者自身の責任において行ってください。</p>
-            <p>
-              <a href="../legal/tokusho/">特定商取引法に基づく表記</a>
-            </p>
-          </section>
+          <div class="disclaimer">
+本ページで提供されるCSVは、判断・解釈・助言・推奨を行うものではありません。<br>
+実務上の判断および対応は、利用者自身の責任において行ってください。
+          </div>
+
+          <div class="download-section">
+            <a class="download-link" href="bundle/company-org_audit_checklist_v0_1.zip">包括CSV（ZIP／v0_1）</a>
+            <p class="download-note">ZIPには、README、NOTICE、および包括CSV・イベント別CSVが含まれます。</p>
+            <a class="download-link" href="events/index.html">イベント別CSV一覧（全イベント）</a>
+            <a class="download-link" href="events/README_company-org_events_v0_1.html">共通README（イベント別CSVの説明）</a>
+            <a class="download-link" href="bundle/README_paid_company_org_checklist.html">包括README（列構成・check_status・利用条件）</a>
+          </div>
+
+          <p class="contact">
+ダウンロードに問題がある場合は、info@acctbase.com までご連絡ください。
+          </p>
         </main>
       </div>
     </div>

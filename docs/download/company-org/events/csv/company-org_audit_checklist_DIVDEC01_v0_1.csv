@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+剰余金配当を決議する,CO-REQ-DIVDEC01-001,剰余金配当に関する会社法上の決議有無,law,会社法,第458条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000180
+剰余金配当を決議する,CO-REQ-DIVDEC01-002,剰余金配当額または算定方法,law,会社法,第458条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000181
+剰余金配当を決議する,CO-REQ-DIVDEC01-003,剰余金配当の基準日,law,会社法,第458条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000182
+剰余金配当を決議する,CO-REQ-DIVDEC01-004,剰余金配当の効力発生日,law,会社法,第458条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000183
+剰余金配当を決議する,CO-REQ-DIVDEC01-005,剰余金配当決議内容の議事録記録状況,law,会社法,第458条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000184

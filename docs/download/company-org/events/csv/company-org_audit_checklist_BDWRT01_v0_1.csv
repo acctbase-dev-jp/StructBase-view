@@ -1,0 +1,6 @@
+event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+取締役会の書面決議を実施する,CO-REQ-BDWRT01-001,取締役会決議事項に関する書面または電磁的方法による提案,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000041
+取締役会の書面決議を実施する,CO-REQ-BDWRT01-002,取締役全員による書面または電磁的方法の同意表示,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000042
+取締役会の書面決議を実施する,CO-REQ-BDWRT01-003,監査役設置会社における監査役の異議不存在,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000043
+取締役会の書面決議を実施する,CO-REQ-BDWRT01-004,書面決議による取締役会決議該当性,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000044
+取締役会の書面決議を実施する,CO-REQ-BDWRT01-005,書面決議内容に関する議事録作成,law,会社法,第369条,https://laws.e-gov.go.jp/law/417AC0000000086/,,,,本行は要件の列挙であり判断を含まない,,CO-000045

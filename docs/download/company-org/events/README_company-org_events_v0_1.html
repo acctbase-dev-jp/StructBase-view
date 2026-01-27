@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>会社機関・規程運営｜イベント別CSV 共通README（v0_1）</title>
+  <meta name="description" content="会社機関・規程運営 要件DB（v0_1）のイベント別CSV 共通READMEです。" />
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif; line-height: 1.6; margin: 24px; }
+    .meta { color: #555; font-size: 14px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 13px; }
+  </style>
+</head>
+<body>
+<main style="max-width: 920px; margin: 0 auto; font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans JP', sans-serif; line-height: 1.75; padding: 24px;">
+  <h1>会社機関・規程運営｜イベント別CSV 共通README（v0_1）</h1>
+
+<nav style="margin: 16px 0 32px 0; padding: 16px; background: #f7f7f7; border-radius: 8px; border: 1px solid #e5e5e5;">
+  <ul style="margin: 0; padding-left: 18px; line-height: 1.9;">
+    <li><a href="./index.html">イベント別CSV一覧へ戻る</a></li>
+    <li><a href="../bundle/README_paid_company_org_checklist.html">包括CSV README（列構成・check_status 列の説明）</a></li>
+    <li><a href="../bundle/company-org_audit_checklist_v0_1.zip" download>包括CSV（ZIP／v0_1）をダウンロード</a></li>
+    <li><a href="../index.html">ダウンロード入口へ戻る</a></li>
+  </ul>
+</nav>
+
+  <p>本ページは、会社機関・規程運営 要件DB（v0_1）において提供されるイベント別CSVの位置づけおよび利用上の前提を説明するための共通READMEです。</p>
+
+  <h2>配布物について</h2>
+  <p>まず、本ページでは、会社機関・規程運営 要件DB（v0_1）に含まれるイベント別CSVを配布しています。</p>
+  <p>次に、イベント別CSVは、特定の業務イベントごとに、対応する要件行のみを抽出して収録したCSVです。</p>
+
+  <h2>版について</h2>
+  <p>まず、本ページで配布するイベント別CSVの版は v0_1 です。</p>
+
+  <h2>ファイル名規約</h2>
+  <p>まず、イベント別CSVのファイル名は、以下の形式としています。</p>
+  <ul>
+    <li><code>company-org_audit_checklist_&lt;event_suffix&gt;_v0_1.csv</code></li>
+  </ul>
+  <p>次に、<code>&lt;event_suffix&gt;</code> は、イベントを識別するための末尾識別子です。</p>
+  <p>例として、<code>HIRE01</code> などを含みます。</p>
+
+  <h2>event_id と event_name について</h2>
+  <p>まず、各イベント別CSVに含まれる <code>event_id</code> および <code>event_name</code> は、正本となる包括CSVに記載された値に基づいています。</p>
+  <p>次に、イベント別CSVの一覧ページでは、<code>event_id</code> の昇順で表示しています。</p>
+  <p>そのため、表示順は、重要度や優先度を示すものではありません。</p>
+
+  <h2>列構成および check_status 列について</h2>
+  <p>まず、イベント別CSVの列構成は、包括CSVと完全に同一です。</p>
+  <p>次に、両者の違いは、行の整理単位のみです。</p>
+  <p>そのため、各列の役割や <code>check_status</code> 列の利用方法については、包括CSVのREADME（v0_1）に記載された説明を参照してください。</p>
+
+  <h2>利用上の前提について</h2>
+  <p>まず、イベント別CSVの利用上の前提、想定される利用シーン、提供しないこと、利用条件、免責事項については、包括CSVのREADME（v0_1）にまとめて記載しています。</p>
+  <p>そのため、これらの詳細は、包括CSVのREADMEを参照してください。</p>
+
+  <h2>問い合わせについて</h2>
+  <p>まず、問い合わせを行う場合は、以下を併記してください。</p>
+  <ul>
+    <li>対象分野名</li>
+    <li>版（v0_1）</li>
+    <li>event_id</li>
+  </ul>
+  <p>次に、event_id は <code>LH-EVT-XXXXXX</code> の形式です。</p>
+  <p>問い合わせ先は、以下のメールアドレスです。</p>
+  <p><a href="mailto:info@acctbase.com">info@acctbase.com</a></p>
+
+  <hr style="margin: 24px 0; border: 0; border-top: 1px solid #eee;" />
+  <p style="color: #555; font-size: 14px;">最終更新：v0_1</p>
+</main>
+</body>
+</html>
