@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>会社機関・規程運営｜業務確認用 CSV｜README（v0_1）</title>
-  <meta name="description" content="会社機関・規程運営｜業務確認用 CSV（v0_1）の購入者向けREADMEです。" />
+  <title>会社機関・規程運営｜監査チェックリスト CSV｜README（v0_1）</title>
+  <meta name="description" content="会社機関・規程運営｜監査チェックリスト CSV（v0_1）の購入者向けREADMEです。" />
   <style>
     :root { color-scheme: light; }
     body {
@@ -94,8 +94,8 @@
 </div>
   <main>
     <header>
-      <h1>会社機関・規程運営｜業務確認用 CSV｜README（v0_1）</h1>
-      <p class="meta">本ページは「会社機関・規程運営｜業務確認用 CSV」の購入者向け説明書です。</p>
+      <h1>会社機関・規程運営｜監査チェックリスト CSV｜README（v0_1）</h1>
+      <p class="meta">本ページは「会社機関・規程運営｜監査チェックリスト CSV」の購入者向け説明書です。</p>
     </header>
 
     <nav class="toc" aria-label="目次">
@@ -118,7 +118,7 @@
 
     <section id="sec-1">
       <h2>1. このREADMEについて</h2>
-      <p>まず、本READMEは、<strong>「会社機関・規程運営｜業務確認用 CSV」</strong>の購入者向け説明書です。</p>
+      <p>まず、本READMEは、<strong>「会社機関・規程運営｜監査チェックリスト CSV」</strong>の購入者向け説明書です。</p>
       <p>本READMEでは、提供されるCSVの位置づけ、構成、列の考え方、利用条件を整理します。</p>
       <p class="note">本READMEおよび本CSVは、判断・解釈・推奨・助言を行いません。</p>
     </section>
@@ -154,6 +154,8 @@
         <li>ExcelやスプレッドシートでCSVを開くこと</li>
         <li>社内業務における確認作業に利用すること</li>
         <li>確認状況や対応状況を自社ルールで記録すること</li>
+        <li>内部監査や自己点検のチェックリストとして利用すること</li>
+        <li>audit_id 等の監査情報を記録し、監査単位で保存して再利用すること</li>
       </ul>
       <p class="note">本CSV自体が、判断結果や結論を提供することはありません。</p>
     </section>
@@ -170,7 +172,12 @@
         <li><code>basis_name</code>：参照元となる一次情報の名称を示します。</li>
         <li><code>basis_locator</code>：一次情報内の該当箇所を特定するための情報です。</li>
         <li><code>basis_url</code>：一次情報に辿るための参照URLです。</li>
+        <li><code>audit_id</code>：監査や自己点検を識別するためのIDです。</li>
+        <li><code>audit_name</code>：監査や自己点検の名称です。</li>
+        <li><code>audit_period</code>：監査や自己点検の対象期間です。</li>
+        <li><code>audit_scope_note</code>：監査や自己点検の対象範囲に関する補足です。</li>
       </ul>
+      <p>これらの列は、監査の結論や評価を示すものではなく、利用者が確認作業の単位を整理し保存するための記録用列です。</p>
       <p class="note">これらの列は、要件の適否や実施可否を示すものではありません。</p>
     </section>
 
@@ -195,6 +202,7 @@
         <li>会社機関・規程運営に関する確認作業の整理</li>
         <li>雇用開始、変更、終了などの業務イベントに伴う確認事項の一覧化</li>
         <li>社内における労務管理の確認状況の管理</li>
+        <li>監査や自己点検の履歴を audit_id 等で識別して保存し、次回の確認作業に再利用すること</li>
       </ul>
       <p class="note">いずれの場合も、最終的な判断や対応は利用者自身で行う前提です。</p>
     </section>
@@ -208,6 +216,7 @@
         <li>個別案件への助言</li>
         <li>正確性や適法性の保証</li>
       </ul>
+      <p>本CSVは、一次情報への参照を目的として確認対象を整理した参照用データであり、適法性や監査結論を示すものではありません。</p>
       <p class="note">本CSVは、参照用の構造データです。</p>
     </section>
 
