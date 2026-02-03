@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>StructBase</title>
-  <meta name="description" content="StructBase：業務向け構造データベース。判断・解釈・推奨を行わず、構造のみを提供する実務基盤。" />
+  <meta name="description" content="StructBase：業務向け構造データベース。法令や公式ガイドラインなどの一次情報を起点に、業務イベントごとに確認すべき要件を整理した参照データベースです。判断や結論を代替せず、確認と説明のための構造だけを提供します。" />
   <style>
     :root{
       /* 背景と紙面 */
@@ -77,7 +77,9 @@
 
     .tagline2 {
       font-size: 18px;
-      margin: 0 0 12px 0;
+      line-height: 1.9;
+      margin: 0 0 24px 0;
+      max-width: 42em;
       color: var(--muted);
     }
 
@@ -207,7 +209,7 @@
       .inner { padding: 32px 20px 36px 20px; }
       .logo { font-size: 26px; }
       .tagline1 { font-size: 19px; }
-      .tagline2 { font-size: 16px; }
+      .tagline2 { font-size: 16px; max-width: 100%; }
       .plan-link { font-size: 15px; margin-top: 10px; }
       .biz-block { margin-top: 24px; padding: 20px; }
       .biz-title { font-size: 18px; }
@@ -226,7 +228,10 @@
         <header>
           <h1 class="logo">StructBase</h1>
           <p class="tagline1">業務向け構造データベース</p>
-          <p class="tagline2">判断・解釈・推奨を行わず、一次情報に辿るための構造のみを提供する実務基盤</p>
+          <p class="tagline2">法令や公式ガイドラインなどの一次情報を起点に、<br>
+          業務イベントごとに確認すべき要件を整理した参照データベースです。<br>
+          内部監査・自己点検・業務確認において、<br>
+          判断や結論を代替せず、確認と説明のための構造だけを提供します。</p>
         </header>
 
         <main>
