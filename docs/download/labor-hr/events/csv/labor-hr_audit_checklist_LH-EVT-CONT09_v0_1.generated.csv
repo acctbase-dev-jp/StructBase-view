@@ -1,0 +1,6 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,労働条件変更を通知する,LH-REQ-CONT09-001,変更後労働条件内容,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000578
+,,,,労働条件変更を通知する,LH-REQ-CONT09-002,労働条件変更内容の労働者への明示状況,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000579
+,,,,労働条件変更を通知する,LH-REQ-CONT09-003,明示必須労働条件事項の欠落有無,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000580
+,,,,労働条件変更を通知する,LH-REQ-CONT09-004,労働条件変更内容の文書等による明示状況,law,労働基準法施行規則,第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000581
+,,,,労働条件変更を通知する,LH-REQ-CONT09-005,施行規則所定方法による明示状況,law,労働基準法施行規則,第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000582

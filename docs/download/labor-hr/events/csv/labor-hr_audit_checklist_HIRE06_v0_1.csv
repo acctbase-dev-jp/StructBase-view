@@ -1,9 +1,0 @@
-event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
-内定取消実施,LH-REQ-HIRE06-001,内定取消し判断における性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000225
-内定取消実施,LH-REQ-HIRE06-002,内定取消し基準または判断要素における性別条件または区別の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000226
-内定取消実施,LH-REQ-HIRE06-003,内定取消しに至る取扱いにおける性別不利益差の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000227
-内定取消実施,LH-REQ-HIRE06-004,内定取消しに関する説明等における性別差別的表現の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000228
-内定取消実施,LH-REQ-HIRE06-005,内定取消し判断における年齢差別的取扱いの有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000229
-内定取消実施,LH-REQ-HIRE06-006,内定取消し基準または判断要素における年齢条件または区別の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000230
-内定取消実施,LH-REQ-HIRE06-007,内定取消しに至る取扱いにおける年齢不利益差の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000231
-内定取消実施,LH-REQ-HIRE06-008,内定取消しに関する説明等における年齢差別的記載の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000232

@@ -1,0 +1,10 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,欠勤が発生する,LH-REQ-TIME10-001,欠勤日に対する賃金支払の有無の整理,law,労働基準法,第24条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000789
+,,,,欠勤が発生する,LH-REQ-TIME10-002,欠勤控除の全額払い原則例外としての整理,law,労働基準法,第24条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000790
+,,,,欠勤が発生する,LH-REQ-TIME10-003,欠勤発生の労働者の安全又は健康起因可能性,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000791
+,,,,欠勤が発生する,LH-REQ-TIME10-004,欠勤状況に応じた労働者の安全及び健康への配慮対応の必要性,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000792
+,,,,欠勤が発生する,LH-REQ-TIME10-005,欠勤の取扱いの就業規則の定め,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000793
+,,,,欠勤が発生する,LH-REQ-TIME10-006,就業規則に基づく欠勤の取扱い,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000794
+,,,,欠勤が発生する,LH-REQ-TIME10-007,当該就業規則の労働者への周知,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000795
+,,,,欠勤が発生する,LH-REQ-TIME10-008,欠勤の取扱いにおける性別差別の有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000796
+,,,,欠勤が発生する,LH-REQ-TIME10-009,性別を理由とする不利益な欠勤取扱いの有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000797

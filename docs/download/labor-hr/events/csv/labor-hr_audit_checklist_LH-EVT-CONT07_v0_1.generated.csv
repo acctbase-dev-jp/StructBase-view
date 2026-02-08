@@ -1,0 +1,9 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,雇用契約を締結する,LH-REQ-CONT07-001,労働者と事業者の意思表示一致状況,law,労働契約法,第6条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000533
+,,,,雇用契約を締結する,LH-REQ-CONT07-002,意思表示の一致による労働契約成立状況,law,労働契約法,第6条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000534
+,,,,雇用契約を締結する,LH-REQ-CONT07-003,労働契約締結時における労働条件明示状況,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000535
+,,,,雇用契約を締結する,LH-REQ-CONT07-004,明示必須労働条件の欠落有無,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000536
+,,,,雇用契約を締結する,LH-REQ-CONT07-005,文書等による労働条件明示状況,law,労働基準法施行規則,第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000537
+,,,,雇用契約を締結する,LH-REQ-CONT07-006,施行規則所定方法による明示状況,law,労働基準法施行規則,第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000538
+,,,,雇用契約を締結する,LH-REQ-CONT07-007,雇用契約締結時における性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000539
+,,,,雇用契約を締結する,LH-REQ-CONT07-008,募集・採用条件の男女均等性,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000540

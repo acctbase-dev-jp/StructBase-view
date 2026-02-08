@@ -1,0 +1,5 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,入社前書類を回収する,LH-REQ-HIRE12-001,入社前書類回収による個人情報取得手段の適正性,law,個人情報の保護に関する法律,第17条／第18条,https://laws.e-gov.go.jp/law/415AC0000000057,,,,本行は要件の列挙であり判断を含まない,,LH-000549
+,,,,入社前書類を回収する,LH-REQ-HIRE12-002,本人意思に反する個人情報取得手段の有無,law,個人情報の保護に関する法律,第17条／第18条,https://laws.e-gov.go.jp/law/415AC0000000057,,,,本行は要件の列挙であり判断を含まない,,LH-000550
+,,,,入社前書類を回収する,LH-REQ-HIRE12-003,入社前書類回収により取得する個人情報の利用目的特定状況,law,個人情報の保護に関する法律,第17条／第18条,https://laws.e-gov.go.jp/law/415AC0000000057,,,,本行は要件の列挙であり判断を含まない,,LH-000551
+,,,,入社前書類を回収する,LH-REQ-HIRE12-004,利用目的内容の明確性,law,個人情報の保護に関する法律,第17条／第18条,https://laws.e-gov.go.jp/law/415AC0000000057,,,,本行は要件の列挙であり判断を含まない,,LH-000552

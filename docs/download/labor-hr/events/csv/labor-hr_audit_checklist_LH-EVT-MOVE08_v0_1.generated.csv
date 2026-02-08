@@ -1,0 +1,7 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,人事評価を実施する,LH-REQ-MOVE08-001,人事評価の労働者と事業者の信義に従った実施,law,労働契約法,第3条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000811
+,,,,人事評価を実施する,LH-REQ-MOVE08-002,人事評価の労働条件決定又は処遇に関する公正取扱い前提,law,労働契約法,第3条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000812
+,,,,人事評価を実施する,LH-REQ-MOVE08-003,就業規則に定める人事評価の実施方法又は基準に基づく評価の実施,law,労働契約法,第3条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000813
+,,,,人事評価を実施する,LH-REQ-MOVE08-004,人事評価に関する就業規則の労働者への周知,law,労働契約法,第3条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000814
+,,,,人事評価を実施する,LH-REQ-MOVE08-005,人事評価の実施における性別差別の有無,law,男女雇用機会均等法,第5条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000815
+,,,,人事評価を実施する,LH-REQ-MOVE08-006,評価基準又は評価結果における性別による不利益取扱いの有無,law,男女雇用機会均等法,第5条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000816

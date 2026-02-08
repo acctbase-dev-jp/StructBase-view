@@ -1,0 +1,17 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,定年後再雇用開始,LH-REQ-TERM05-001,定年後再雇用対象者の高年齢者該当性,law,高年齢者等の雇用の安定等に関する法律,第9条／第10条／第11条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000115
+,,,,定年後再雇用開始,LH-REQ-TERM05-002,定年後再雇用に関する継続雇用制度の導入状況,law,高年齢者等の雇用の安定等に関する法律,第9条／第10条／第11条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000116
+,,,,定年後再雇用開始,LH-REQ-TERM05-003,継続雇用制度における定年後雇用機会の確保状況,law,高年齢者等の雇用の安定等に関する法律,第9条／第10条／第11条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000117
+,,,,定年後再雇用開始,LH-REQ-TERM05-004,定年後再雇用後の労働条件の明示状況,law,高年齢者等の雇用の安定等に関する法律,第9条／第10条／第11条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000118
+,,,,定年後再雇用開始,LH-REQ-TERM05-005,定年後再雇用取扱いにおける年齢差別的取扱いの有無,law,高年齢者等の雇用の安定等に関する法律,第9条／第10条／第11条,https://laws.e-gov.go.jp/law/346AC0000000068/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000119
+,,,,定年後再雇用開始,LH-REQ-TERM05-006,定年後再雇用契約期間の法定上限適合性,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000120
+,,,,定年後再雇用開始,LH-REQ-TERM05-007,定年後再雇用契約における契約期間の定めの有無および内容,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000121
+,,,,定年後再雇用開始,LH-REQ-TERM05-008,定年後再雇用時の賃金に関する労働条件の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000122
+,,,,定年後再雇用開始,LH-REQ-TERM05-009,定年後再雇用時の労働時間に関する労働条件の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000123
+,,,,定年後再雇用開始,LH-REQ-TERM05-010,定年後再雇用時の就業場所および業務内容の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000124
+,,,,定年後再雇用開始,LH-REQ-TERM05-011,定年後再雇用に係る労働条件の書面明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000125
+,,,,定年後再雇用開始,LH-REQ-TERM05-012,定年後再雇用に伴う労働条件変更内容の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000126
+,,,,定年後再雇用開始,LH-REQ-TERM05-013,定年後再雇用取扱いにおける性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000127
+,,,,定年後再雇用開始,LH-REQ-TERM05-014,定年後再雇用対象者選定における性別条件または基準の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000128
+,,,,定年後再雇用開始,LH-REQ-TERM05-015,定年後再雇用に係る労働条件における性別不利益差の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000129
+,,,,定年後再雇用開始,LH-REQ-TERM05-016,定年後再雇用に関する説明または通知内容における性別区別的記載の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000130

@@ -1,0 +1,15 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,試用期間開始,LH-REQ-HIRE04-001,試用期間を含む労働契約期間の上限適合性,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000069
+,,,,試用期間開始,LH-REQ-HIRE04-002,試用期間の有無および期間内容,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000070
+,,,,試用期間開始,LH-REQ-HIRE04-003,試用期間中に適用される賃金内容の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000071
+,,,,試用期間開始,LH-REQ-HIRE04-004,試用期間中に適用される労働時間内容の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000072
+,,,,試用期間開始,LH-REQ-HIRE04-005,試用期間中に適用される就業場所および業務内容の明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000073
+,,,,試用期間開始,LH-REQ-HIRE04-006,試用期間中の労働条件の書面明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000074
+,,,,試用期間開始,LH-REQ-HIRE04-007,試用期間に関する労働条件変更時の変更内容明示状況,law,労働基準法,第14条／第15条,https://laws.e-gov.go.jp/law/322AC0000000049/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000075
+,,,,試用期間開始,LH-REQ-HIRE04-008,試用期間中に支払われる賃金額の最低賃金適合性,law,最低賃金法,第4条,https://laws.e-gov.go.jp/law/334AC0000000137/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000076
+,,,,試用期間開始,LH-REQ-HIRE04-009,試用期間を理由とした最低賃金未満賃金設定の有無,law,最低賃金法,第4条,https://laws.e-gov.go.jp/law/334AC0000000137/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000077
+,,,,試用期間開始,LH-REQ-HIRE04-010,試用期間中の賃金支払における最低賃金以上支払状況,law,最低賃金法,第4条,https://laws.e-gov.go.jp/law/334AC0000000137/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000078
+,,,,試用期間開始,LH-REQ-HIRE04-011,試用期間開始時における性別差別的取扱いの有無,law,男女雇用機会均等法,第5条／第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000079
+,,,,試用期間開始,LH-REQ-HIRE04-012,試用期間中の労働条件適用における性別不利益取扱いの有無,law,男女雇用機会均等法,第5条／第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000080
+,,,,試用期間開始,LH-REQ-HIRE04-013,試用期間に関する取扱いにおける性別限定条件または区別条件の有無,law,男女雇用機会均等法,第5条／第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000081
+,,,,試用期間開始,LH-REQ-HIRE04-014,試用期間の開始または継続判断における性別非該当性,law,男女雇用機会均等法,第5条／第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000082

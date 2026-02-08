@@ -1,0 +1,8 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,休職を開始する,LH-REQ-LEAVE06-001,労働者の安全及び健康への配慮が必要な状況の該当性,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000768
+,,,,休職を開始する,LH-REQ-LEAVE06-002,休職開始の労働者の安全又は健康確保目的該当性,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000769
+,,,,休職を開始する,LH-REQ-LEAVE06-003,休職開始の要件及び取扱いの就業規則の定め,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000770
+,,,,休職を開始する,LH-REQ-LEAVE06-004,就業規則に基づく休職開始,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000771
+,,,,休職を開始する,LH-REQ-LEAVE06-005,当該就業規則の労働者への周知,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000772
+,,,,休職を開始する,LH-REQ-LEAVE06-006,休職開始における性別差別の有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000773
+,,,,休職を開始する,LH-REQ-LEAVE06-007,性別を理由とする休職の適用又は不適用決定の有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000774

@@ -1,0 +1,9 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,降格実施,LH-REQ-MOVE04-001,降格判断における性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000322
+,,,,降格実施,LH-REQ-MOVE04-002,降格基準または判断要素における性別条件または区別の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000323
+,,,,降格実施,LH-REQ-MOVE04-003,降格後の職位、職務内容または労働条件における性別不利益差の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000324
+,,,,降格実施,LH-REQ-MOVE04-004,降格に関する説明等における性別差別的表現の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000325
+,,,,降格実施,LH-REQ-MOVE04-005,降格判断における年齢差別的取扱いの有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000326
+,,,,降格実施,LH-REQ-MOVE04-006,降格基準または判断要素における年齢条件または区別の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000327
+,,,,降格実施,LH-REQ-MOVE04-007,降格後の職位、職務内容または労働条件における年齢不利益差の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000328
+,,,,降格実施,LH-REQ-MOVE04-008,降格に関する説明等における年齢差別的記載の有無,law,労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律,第9条,https://laws.e-gov.go.jp/law/341AC0000000132/,not_checked,,,本行は要件の列挙であり判断を含まない,,LH-000329

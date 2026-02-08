@@ -1,0 +1,9 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,入社を延期する,LH-REQ-HIRE13-001,入社日延期の労働契約内容変更該当性,law,労働契約法,第8条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000553
+,,,,入社を延期する,LH-REQ-HIRE13-002,入社日延期に関する当事者合意の有無,law,労働契約法,第8条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000554
+,,,,入社を延期する,LH-REQ-HIRE13-003,延期後入社日を含む労働条件内容,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000555
+,,,,入社を延期する,LH-REQ-HIRE13-004,入社日変更内容の労働者への明示状況,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000556
+,,,,入社を延期する,LH-REQ-HIRE13-005,延期後入社日の文書等による明示状況,law,労働基準法施行規則,第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000557
+,,,,入社を延期する,LH-REQ-HIRE13-006,施行規則所定方法による明示状況,law,労働基準法施行規則,第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000558
+,,,,入社を延期する,LH-REQ-HIRE13-007,入社日延期における性別差別的取扱いの有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000559
+,,,,入社を延期する,LH-REQ-HIRE13-008,特定性別を不利に扱う入社日延期の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000560

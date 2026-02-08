@@ -1,0 +1,11 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,所定労働時間を定める,LH-REQ-TIME07-001,所定労働時間の法定範囲内設定状況,law,労働基準法,第32条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000639
+,,,,所定労働時間を定める,LH-REQ-TIME07-002,1日・1週の法定上限超過有無,law,労働基準法,第32条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000640
+,,,,所定労働時間を定める,LH-REQ-TIME07-003,所定労働時間の就業規則記載事項該当性,law,労働基準法,第32条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000641
+,,,,所定労働時間を定める,LH-REQ-TIME07-004,就業規則への所定労働時間記載状況,law,労働基準法,第32条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000642
+,,,,所定労働時間を定める,LH-REQ-TIME07-005,就業規則への始業・終業時刻記載状況,law,労働基準法施行規則,第54条／第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000643
+,,,,所定労働時間を定める,LH-REQ-TIME07-006,休憩時間および休日に関する事項の併記状況,law,労働基準法施行規則,第54条／第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000644
+,,,,所定労働時間を定める,LH-REQ-TIME07-007,所定労働時間の労働条件としての明示状況,law,労働基準法施行規則,第54条／第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000645
+,,,,所定労働時間を定める,LH-REQ-TIME07-008,文書等による労働条件明示状況,law,労働基準法施行規則,第54条／第5条,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000646
+,,,,所定労働時間を定める,LH-REQ-TIME07-009,所定労働時間の意思表示合致による契約内容該当性,law,労働契約法,第6条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000647
+,,,,所定労働時間を定める,LH-REQ-TIME07-010,所定労働時間の労働契約内容としての確定状況,law,労働契約法,第6条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000648

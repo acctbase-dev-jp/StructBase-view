@@ -1,0 +1,9 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-001,労働契約締結時における労働条件明示状況,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000570
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-002,労働条件通知書への明示必須事項の包含状況,law,労働基準法,第15条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000571
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-003,文書による労働条件明示としての通知書作成状況,law,労働基準法施行規則,第5条／第5条の2,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000572
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-004,明示必須労働条件事項の欠落有無,law,労働基準法施行規則,第5条／第5条の2,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000573
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-005,書面以外による明示時の労働者同意有無,law,労働基準法施行規則,第5条／第5条の2,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000574
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-006,電磁的方法による明示の施行規則要件適合性,law,労働基準法施行規則,第5条／第5条の2,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000575
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-007,労働条件通知書内容と当事者意思表示の対応関係,law,労働契約法,第6条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000576
+,,,,労働条件通知書を作成する,LH-REQ-CONT08-008,明示された労働条件の契約内容該当性,law,労働契約法,第6条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000577

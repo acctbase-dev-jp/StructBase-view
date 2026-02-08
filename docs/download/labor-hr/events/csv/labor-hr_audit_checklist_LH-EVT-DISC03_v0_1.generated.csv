@@ -1,0 +1,11 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,是正指導を行う,LH-REQ-DISC03-001,是正指導の労働者と事業者の信義に従った実施,law,労働契約法,第3条／第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000838
+,,,,是正指導を行う,LH-REQ-DISC03-002,是正指導の公正取扱い前提による実施,law,労働契約法,第3条／第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000839
+,,,,是正指導を行う,LH-REQ-DISC03-003,是正指導の労働者の安全及び健康への配慮に基づく実施,law,労働契約法,第3条／第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000840
+,,,,是正指導を行う,LH-REQ-DISC03-004,是正指導の内容又は方法における労働者の心身の安全への支障のおそれの不存在,law,労働契約法,第3条／第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000841
+,,,,是正指導を行う,LH-REQ-DISC03-005,是正指導に関する就業規則の定めに基づく指導の実施,law,労働契約法,第3条／第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000842
+,,,,是正指導を行う,LH-REQ-DISC03-006,是正指導に関する就業規則の労働者への周知,law,労働契約法,第3条／第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000843
+,,,,是正指導を行う,LH-REQ-DISC03-007,是正指導に関する事項の就業規則記載事項該当性,law,労働基準法,第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000844
+,,,,是正指導を行う,LH-REQ-DISC03-008,是正指導に関する定めを含む就業規則作成又は変更時の所轄労働基準監督署への届出,law,労働基準法,第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000845
+,,,,是正指導を行う,LH-REQ-DISC03-009,是正指導の実施における性別差別取扱いの不存在,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000846
+,,,,是正指導を行う,LH-REQ-DISC03-010,是正指導の対象選定又は内容における性別を理由とする不利益取扱いの不存在,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000847

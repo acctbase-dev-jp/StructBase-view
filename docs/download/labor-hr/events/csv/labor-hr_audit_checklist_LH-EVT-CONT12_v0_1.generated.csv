@@ -1,0 +1,12 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,就業規則を周知する,LH-REQ-CONT12-001,就業規則の労働者への周知状況,law,労働基準法,第106条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000615
+,,,,就業規則を周知する,LH-REQ-CONT12-002,労働者が内容を確認可能な周知方法,law,労働基準法,第106条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000616
+,,,,就業規則を周知する,LH-REQ-CONT12-003,作成または変更された就業規則の有無,law,労働基準法,第106条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000617
+,,,,就業規則を周知する,LH-REQ-CONT12-004,周知対象就業規則の最新性,law,労働基準法,第106条／第89条,https://laws.e-gov.go.jp/law/322AC0000000049,,,,本行は要件の列挙であり判断を含まない,,LH-000618
+,,,,就業規則を周知する,LH-REQ-CONT12-005,施行規則所定方法による就業規則周知状況,law,労働基準法施行規則,第52条の2,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000619
+,,,,就業規則を周知する,LH-REQ-CONT12-006,労働者が常時確認可能な就業規則の状態,law,労働基準法施行規則,第52条の2,https://laws.e-gov.go.jp/law/322M40000100023,,,,本行は要件の列挙であり判断を含まない,,LH-000620
+,,,,就業規則を周知する,LH-REQ-CONT12-007,就業規則内容の合理性,law,労働契約法,第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000621
+,,,,就業規則を周知する,LH-REQ-CONT12-008,就業規則の労働者周知状況,law,労働契約法,第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000622
+,,,,就業規則を周知する,LH-REQ-CONT12-009,周知された就業規則の労働契約内容該当性,law,労働契約法,第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000623
+,,,,就業規則を周知する,LH-REQ-CONT12-010,周知内容における性別差別的取扱いの有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000624
+,,,,就業規則を周知する,LH-REQ-CONT12-011,性別を理由とする不利益取扱い規定の有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000625

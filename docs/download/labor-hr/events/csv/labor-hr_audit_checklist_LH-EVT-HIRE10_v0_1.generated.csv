@@ -1,0 +1,9 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,募集を停止する,LH-REQ-HIRE10-001,募集停止後も募集継続と誤認される表示の有無,law,職業安定法,第5条の4,https://laws.e-gov.go.jp/law/322AC0000000141,,,,本行は要件の列挙であり判断を含まない,,LH-000499
+,,,,募集を停止する,LH-REQ-HIRE10-002,実態と異なる募集状態表示の有無,law,職業安定法,第5条の4,https://laws.e-gov.go.jp/law/322AC0000000141,,,,本行は要件の列挙であり判断を含まない,,LH-000500
+,,,,募集を停止する,LH-REQ-HIRE10-003,求職者に誤解を生じさせる表示の有無,law,職業安定法,第5条の4,https://laws.e-gov.go.jp/law/322AC0000000141,,,,本行は要件の列挙であり判断を含まない,,LH-000501
+,,,,募集を停止する,LH-REQ-HIRE10-004,募集停止取扱いの性別差異の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000502
+,,,,募集を停止する,LH-REQ-HIRE10-005,特定性別を排除する募集停止の有無,law,男女雇用機会均等法,第6条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000503
+,,,,募集を停止する,LH-REQ-HIRE10-006,募集停止事実の募集情報への反映状況,law,青少年の雇用の促進等に関する法律,第11条,https://laws.e-gov.go.jp/law/445AC0000000098,,,,本行は要件の列挙であり判断を含まない,,LH-000504
+,,,,募集を停止する,LH-REQ-HIRE10-007,青少年に対する募集継続誤認表示の有無,law,青少年の雇用の促進等に関する法律,第11条,https://laws.e-gov.go.jp/law/445AC0000000098,,,,本行は要件の列挙であり判断を含まない,,LH-000505
+,,,,募集を停止する,LH-REQ-HIRE10-008,募集情報内容の実態即応性,law,青少年の雇用の促進等に関する法律,第11条,https://laws.e-gov.go.jp/law/445AC0000000098,,,,本行は要件の列挙であり判断を含まない,,LH-000506

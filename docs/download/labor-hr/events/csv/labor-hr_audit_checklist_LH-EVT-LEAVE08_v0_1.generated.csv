@@ -1,0 +1,8 @@
+audit_id,audit_name,audit_period,audit_scope_note,event_name,requirement_id,requirement_text,basis_type,basis_name,basis_locator,basis_url,check_status,checked_at,checked_by,neutrality_note,remarks,row_id
+,,,,復職を決定する,LH-REQ-LEAVE08-001,復職による労働者の安全又は健康への支障のおそれ,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000782
+,,,,復職を決定する,LH-REQ-LEAVE08-002,労働者の安全及び健康に配慮した復職の決定,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000783
+,,,,復職を決定する,LH-REQ-LEAVE08-003,復職に関する要件又は手続の就業規則の定め,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000784
+,,,,復職を決定する,LH-REQ-LEAVE08-004,就業規則に基づく復職の可否判断,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000785
+,,,,復職を決定する,LH-REQ-LEAVE08-005,当該就業規則の労働者への周知,law,労働契約法,第5条／第7条,https://laws.e-gov.go.jp/law/417AC0000000128,,,,本行は要件の列挙であり判断を含まない,,LH-000786
+,,,,復職を決定する,LH-REQ-LEAVE08-006,復職の決定における性別差別の有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000787
+,,,,復職を決定する,LH-REQ-LEAVE08-007,性別を理由とする復職の可否又は条件決定の有無,law,男女雇用機会均等法,第8条,https://laws.e-gov.go.jp/law/347AC0000000113,,,,本行は要件の列挙であり判断を含まない,,LH-000788
